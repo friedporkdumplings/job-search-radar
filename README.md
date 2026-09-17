@@ -135,3 +135,10 @@ Selecting another quick filter, location, category, salary, freshness, search te
 - The Jobright Product Management New Grad feed is treated as an already-curated Product source.
 - Every valid table row from that feed is included in the dashboard, including titles that do not match the broader keyword classifier.
 - Distinct Jobright posting URLs are preserved even when company, title, and location are identical.
+
+## v3.5 — Include/exclude filters and saved views
+
+- Role categories, quick filters, locations, industries, and company tiers now cycle through include, exclude, and default states.
+- Excluded filters use a red `×` state and override included filters, making it possible to remove locations or job types from a broader search.
+- `New Grad` now excludes internships even when a listing carries both labels.
+- One filter view can be saved in local browser storage and restored later; exported local data includes the saved view.

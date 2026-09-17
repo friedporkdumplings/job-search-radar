@@ -2,7 +2,8 @@ const STORAGE_KEYS = {
   saved: 'savedJobs',
   hidden: 'hiddenJobs',
   legacyApplied: 'appliedJobs',
-  stages: 'jobApplicationStages'
+  stages: 'jobApplicationStages',
+  filterView: 'savedFilterView'
 };
 
 const STAGES = [
@@ -23,11 +24,16 @@ const state = {
   payload: {},
   universe: null,
   categories: new Set(),
+  excludedCategories: new Set(),
   quick: new Set(),
+  excludedQuick: new Set(),
   mainView: true,
   locations: new Set(),
+  excludedLocations: new Set(),
   industries: new Set(),
+  excludedIndustries: new Set(),
   tiers: new Set(),
+  excludedTiers: new Set(),
   view: 'all',
   saved: new Set(readArray(STORAGE_KEYS.saved)),
   hidden: new Set(readArray(STORAGE_KEYS.hidden)),
@@ -62,6 +68,8 @@ const els = {
   actionQueuePriorityCount: document.querySelector('#actionQueuePriorityCount'),
   salary: document.querySelector('#salaryFilter'),
   includeUnknownSalary: document.querySelector('#includeUnknownSalary'),
+  saveFilterView: document.querySelector('#saveFilterView'),
+  loadFilterView: document.querySelector('#loadFilterView'),
   toast: document.querySelector('#toast'),
   toastMessage: document.querySelector('#toastMessage'),
   toastUndo: document.querySelector('#toastUndo'),
@@ -161,6 +169,45 @@ function readObject(key) {
   }
 }
 
+function readSavedFilterView() {
+  try {
+    const value = JSON.parse(localStorage.getItem(STORAGE_KEYS.filterView) || 'null');
+    return value && typeof value === 'object' && !Array.isArray(value) ? value : null;
+  } catch {
+    return null;
+  }
+}
+
+function cycleFilterState(included, excluded, value) {
+  if (included.has(value)) {
+    included.delete(value);
+    excluded.add(value);
+    return 'excluded';
+  }
+  if (excluded.has(value)) {
+    excluded.delete(value);
+    return 'default';
+  }
+  included.add(value);
+  return 'included';
+}
+
+function clearTriState(included, excluded) {
+  included.clear();
+  excluded.clear();
+}
+
+function filterStateClass(included, excluded, value) {
+  if (excluded.has(value)) return 'excluded';
+  if (included.has(value)) return 'active';
+  return '';
+}
+
+function passesTriState(value, included, excluded) {
+  if (excluded.has(value)) return false;
+  return included.size === 0 || included.has(value);
+}
+
 function migrateLegacyAppliedState() {
   const legacyApplied = readArray(STORAGE_KEYS.legacyApplied);
   let changed = false;
@@ -256,8 +303,16 @@ function locationMatchesValue(location, value) {
 }
 
 function locationMatches(location) {
+  if ([...state.excludedLocations].some(value => locationMatchesValue(location, value))) return false;
   if (state.locations.size === 0) return true;
   return [...state.locations].some(value => locationMatchesValue(location, value));
+}
+
+function isInternshipJob(job) {
+  // Titles and employment type are authoritative. Generated tags may mention
+  // internships only because the full job description references them.
+  const text = `${job.title || ''} ${job.employmentType || ''}`.toLowerCase();
+  return /\bintern(?:ship)?\b|\bco-?op\b/.test(text);
 }
 
 function quickMatchesOne(job, item) {
@@ -270,6 +325,11 @@ function quickMatchesOne(job, item) {
       && (breakdown.careerFit ?? 70) >= 70;
   }
   if (item === 'Priority A') return job.companyTier === 'A';
+  if (item === 'New Grad') {
+    const newGrad = /new grad|new graduate|new college grad|college graduate|university graduate|graduate program|graduate product|\b2027 start\b|class of 2027/.test(hay);
+    return newGrad && !isInternshipJob(job);
+  }
+  if (item === 'Internship') return isInternshipJob(job);
   return hay.includes(item.toLowerCase());
 }
 
@@ -279,8 +339,8 @@ function mainViewMatches(job) {
 }
 
 function quickMatches(job) {
-  if (state.quick.size === 0) return true;
-  // Multiple quick filters narrow the feed together instead of broadening it.
+  // Included filters narrow together. Any excluded match removes the job.
+  if ([...state.excludedQuick].some(item => quickMatchesOne(job, item))) return false;
   return [...state.quick].every(item => quickMatchesOne(job, item));
 }
 
@@ -323,13 +383,13 @@ function filteredJobs() {
 
   let list = state.jobs.filter(job => {
     if (!visibleInCurrentView(job)) return false;
-    if (state.categories.size && !state.categories.has(job.category)) return false;
+    if (!passesTriState(job.category, state.categories, state.excludedCategories)) return false;
     if (!mainViewMatches(job)) return false;
     if (!quickMatches(job)) return false;
     if (!locationMatches(job.location)) return false;
     if (!salaryMatches(job)) return false;
-    if (state.industries.size && !state.industries.has(job.industry || 'Other')) return false;
-    if (state.tiers.size && !state.tiers.has(job.companyTier || 'C')) return false;
+    if (!passesTriState(job.industry || 'Other', state.industries, state.excludedIndustries)) return false;
+    if (!passesTriState(job.companyTier || 'C', state.tiers, state.excludedTiers)) return false;
 
     if (state.view !== 'today' && freshness !== 'all' && ageInDays(job.postedAt) > Number(freshness)) return false;
 
@@ -355,11 +415,11 @@ function renderNav() {
   els.categoryNav.innerHTML = '';
 
   const allBtn = document.createElement('button');
-  allBtn.className = state.categories.size === 0 ? 'active' : '';
+  allBtn.className = state.categories.size === 0 && state.excludedCategories.size === 0 ? 'active' : '';
   allBtn.innerHTML = `<span>All</span><span class="count">${state.jobs.length}</span>`;
   allBtn.onclick = () => {
     state.mainView = false;
-    state.categories.clear();
+    clearTriState(state.categories, state.excludedCategories);
     render();
   };
   els.categoryNav.appendChild(allBtn);
@@ -367,11 +427,12 @@ function renderNav() {
   categories.forEach(category => {
     const btn = document.createElement('button');
     const count = state.jobs.filter(j => j.category === category).length;
-    btn.className = state.categories.has(category) ? 'active' : '';
-    btn.innerHTML = `<span>${category}</span><span class="count">${count}</span>`;
+    btn.className = filterStateClass(state.categories, state.excludedCategories, category);
+    btn.title = 'Click once to include, twice to exclude, three times to reset';
+    btn.innerHTML = `<span>${category}</span><span class="nav-meta"><span class="count">${count}</span><span class="exclude-mark" aria-hidden="true">×</span></span>`;
     btn.onclick = () => {
       state.mainView = false;
-      state.categories.has(category) ? state.categories.delete(category) : state.categories.add(category);
+      cycleFilterState(state.categories, state.excludedCategories, category);
       render();
     };
     els.categoryNav.appendChild(btn);
@@ -382,11 +443,11 @@ function renderQuickFilters() {
   els.quickFilters.innerHTML = '';
 
   const allBtn = document.createElement('button');
-  allBtn.className = `chip ${!state.mainView && state.quick.size === 0 ? 'active' : ''}`;
+  allBtn.className = `chip ${!state.mainView && state.quick.size === 0 && state.excludedQuick.size === 0 ? 'active' : ''}`;
   allBtn.textContent = 'All';
   allBtn.onclick = () => {
     state.mainView = false;
-    state.quick.clear();
+    clearTriState(state.quick, state.excludedQuick);
     render();
   };
   els.quickFilters.appendChild(allBtn);
@@ -397,19 +458,21 @@ function renderQuickFilters() {
   mainBtn.title = 'USA-based roles that meet Apply ASAP criteria';
   mainBtn.onclick = () => {
     state.mainView = true;
-    state.quick.clear();
-    state.locations.clear();
+    clearTriState(state.quick, state.excludedQuick);
+    clearTriState(state.locations, state.excludedLocations);
     render();
   };
   els.quickFilters.appendChild(mainBtn);
 
   quickFilters.forEach(item => {
     const btn = document.createElement('button');
-    btn.className = `chip ${!state.mainView && state.quick.has(item) ? 'active' : ''}`;
-    btn.textContent = item;
+    const filterClass = !state.mainView ? filterStateClass(state.quick, state.excludedQuick, item) : '';
+    btn.className = `chip ${filterClass}`;
+    btn.title = 'Click once to include, twice to exclude, three times to reset';
+    btn.innerHTML = `<span>${escapeHtml(item)}</span><span class="exclude-mark" aria-hidden="true">×</span>`;
     btn.onclick = () => {
       state.mainView = false;
-      state.quick.has(item) ? state.quick.delete(item) : state.quick.add(item);
+      cycleFilterState(state.quick, state.excludedQuick, item);
       render();
     };
     els.quickFilters.appendChild(btn);
@@ -470,7 +533,7 @@ function renderActionQueue() {
       cls: 'urgent',
       action: () => {
         state.view = 'today';
-        state.quick.clear();
+        clearTriState(state.quick, state.excludedQuick);
         render();
       }
     },
@@ -683,10 +746,13 @@ function renderJobs() {
     els.feedEyebrow.textContent = 'HIDDEN ROLES';
     els.feedTitle.textContent = 'Hidden jobs';
     els.emptyMessage.textContent = 'No hidden roles match these filters.';
-  } else if (state.categories.size === 0) {
+  } else if (state.categories.size === 0 && state.excludedCategories.size === 0) {
     els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 6 HOURS';
     els.feedTitle.textContent = 'All matching jobs';
     els.emptyMessage.textContent = 'Try widening freshness, industry, company tier, or location.';
+  } else if (state.categories.size === 0) {
+    els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 6 HOURS';
+    els.feedTitle.textContent = `${state.excludedCategories.size} ${state.excludedCategories.size === 1 ? 'category' : 'categories'} excluded`;
   } else if (state.categories.size <= 2) {
     els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 6 HOURS';
     els.feedTitle.textContent = [...state.categories].join(' + ');
@@ -708,34 +774,65 @@ function renderJobs() {
   }
 }
 
-function summaryText(selectedSet, labels, fallback) {
-  if (selectedSet.size === 0) return fallback;
-  const names = [...selectedSet].map(value => labels?.[value] || value);
-  if (names.length === 1) return names[0];
-  if (names.length === 2) return names.join(' + ');
-  return `${names.length} selected`;
+function summaryText(included, excluded, labels, fallback) {
+  if (included.size === 0 && excluded.size === 0) return fallback;
+  const includedNames = [...included].map(value => labels?.[value] || value);
+  const excludedNames = [...excluded].map(value => labels?.[value] || value);
+  const parts = [];
+
+  if (includedNames.length === 1) parts.push(includedNames[0]);
+  else if (includedNames.length) parts.push(`${includedNames.length} included`);
+
+  if (excludedNames.length === 1) parts.push(`not ${excludedNames[0]}`);
+  else if (excludedNames.length) parts.push(`${excludedNames.length} excluded`);
+
+  return parts.join(' · ');
 }
 
 function syncMultiSelectSummaries() {
-  els.locationSummary.textContent = summaryText(state.locations, locationLabels, 'All locations');
-  els.industrySummary.textContent = summaryText(state.industries, null, 'All industries');
-  els.tierSummary.textContent = summaryText(state.tiers, tierLabels, 'All company tiers');
+  els.locationSummary.textContent = summaryText(state.locations, state.excludedLocations, locationLabels, 'All locations');
+  els.industrySummary.textContent = summaryText(state.industries, state.excludedIndustries, null, 'All industries');
+  els.tierSummary.textContent = summaryText(state.tiers, state.excludedTiers, tierLabels, 'All company tiers');
 }
 
-function bindStaticMultiSelect(container, stateSet) {
+function syncMultiSelectOptions(container, included, excluded) {
   container.querySelectorAll('input[type="checkbox"]').forEach(input => {
-    input.checked = stateSet.has(input.value);
-    input.addEventListener('change', () => {
+    input.checked = included.has(input.value);
+    input.indeterminate = excluded.has(input.value);
+    input.closest('.multi-option')?.classList.toggle('excluded', excluded.has(input.value));
+  });
+}
+
+function bindTriStateMultiSelect(container, included, excluded) {
+  container.querySelectorAll('.multi-option').forEach(label => {
+    const input = label.querySelector('input[type="checkbox"]');
+    if (!input) return;
+
+    if (!label.querySelector('.filter-x')) {
+      const mark = document.createElement('span');
+      mark.className = 'filter-x';
+      mark.textContent = '×';
+      mark.setAttribute('aria-hidden', 'true');
+      label.appendChild(mark);
+    }
+
+    label.title = 'Click once to include, twice to exclude, three times to reset';
+    input.addEventListener('click', event => {
+      event.preventDefault();
+      event.stopPropagation();
       state.mainView = false;
-      input.checked ? stateSet.add(input.value) : stateSet.delete(input.value);
+      cycleFilterState(included, excluded, input.value);
       render();
     });
   });
+
+  syncMultiSelectOptions(container, included, excluded);
 }
 
 function populateIndustryOptions() {
   const industries = [...new Set(state.jobs.map(j => j.industry || 'Other').filter(Boolean))].sort();
   state.industries = new Set([...state.industries].filter(x => industries.includes(x)));
+  state.excludedIndustries = new Set([...state.excludedIndustries].filter(x => industries.includes(x)));
   els.industryOptions.innerHTML = '';
 
   industries.forEach(industry => {
@@ -745,18 +842,14 @@ function populateIndustryOptions() {
     const input = document.createElement('input');
     input.type = 'checkbox';
     input.value = industry;
-    input.checked = state.industries.has(industry);
-    input.addEventListener('change', () => {
-      state.mainView = false;
-      input.checked ? state.industries.add(industry) : state.industries.delete(industry);
-      render();
-    });
 
     const span = document.createElement('span');
     span.textContent = industry;
     label.append(input, span);
     els.industryOptions.appendChild(label);
   });
+
+  bindTriStateMultiSelect(els.industryOptions, state.industries, state.excludedIndustries);
 }
 
 function renderCoverage() {
@@ -796,16 +889,21 @@ function render() {
   renderJobs();
   renderCoverage();
   syncMultiSelectSummaries();
+  syncMultiSelectOptions(els.locationOptions, state.locations, state.excludedLocations);
+  syncMultiSelectOptions(els.industryOptions, state.industries, state.excludedIndustries);
+  syncMultiSelectOptions(els.tierOptions, state.tiers, state.excludedTiers);
   syncViewButtons();
+  if (els.saveFilterView) els.saveFilterView.textContent = `Save view (${filterChoiceCount()})`;
+  if (els.loadFilterView) els.loadFilterView.disabled = !readSavedFilterView();
 }
 
 function resetFilters() {
   state.mainView = true;
-  state.categories.clear();
-  state.quick.clear();
-  state.locations.clear();
-  state.industries.clear();
-  state.tiers.clear();
+  clearTriState(state.categories, state.excludedCategories);
+  clearTriState(state.quick, state.excludedQuick);
+  clearTriState(state.locations, state.excludedLocations);
+  clearTriState(state.industries, state.excludedIndustries);
+  clearTriState(state.tiers, state.excludedTiers);
   els.search.value = '';
   els.freshness.value = 'all';
   els.sort.value = 'newest';
@@ -817,6 +915,83 @@ function resetFilters() {
   });
 
   render();
+}
+
+function serializeFilterView() {
+  return {
+    version: 1,
+    savedAt: new Date().toISOString(),
+    mainView: state.mainView,
+    categories: [...state.categories],
+    excludedCategories: [...state.excludedCategories],
+    quick: [...state.quick],
+    excludedQuick: [...state.excludedQuick],
+    locations: [...state.locations],
+    excludedLocations: [...state.excludedLocations],
+    industries: [...state.industries],
+    excludedIndustries: [...state.excludedIndustries],
+    tiers: [...state.tiers],
+    excludedTiers: [...state.excludedTiers],
+    search: els.search.value,
+    freshness: els.freshness.value,
+    salary: els.salary?.value || 'all',
+    includeUnknownSalary: Boolean(els.includeUnknownSalary?.checked),
+    sort: els.sort.value
+  };
+}
+
+function filterChoiceCount(view = serializeFilterView()) {
+  return [
+    ...view.categories, ...view.excludedCategories,
+    ...view.quick, ...view.excludedQuick,
+    ...view.locations, ...view.excludedLocations,
+    ...view.industries, ...view.excludedIndustries,
+    ...view.tiers, ...view.excludedTiers
+  ].length + (view.search ? 1 : 0);
+}
+
+function restoreSet(target, value) {
+  target.clear();
+  if (Array.isArray(value)) value.forEach(item => target.add(item));
+}
+
+function applyFilterView(view) {
+  state.mainView = Boolean(view.mainView);
+  state.view = 'all';
+  restoreSet(state.categories, view.categories);
+  restoreSet(state.excludedCategories, view.excludedCategories);
+  restoreSet(state.quick, view.quick);
+  restoreSet(state.excludedQuick, view.excludedQuick);
+  restoreSet(state.locations, view.locations);
+  restoreSet(state.excludedLocations, view.excludedLocations);
+  restoreSet(state.industries, view.industries);
+  restoreSet(state.excludedIndustries, view.excludedIndustries);
+  restoreSet(state.tiers, view.tiers);
+  restoreSet(state.excludedTiers, view.excludedTiers);
+  els.search.value = typeof view.search === 'string' ? view.search : '';
+  els.freshness.value = view.freshness || 'all';
+  if (els.salary) els.salary.value = view.salary || 'all';
+  if (els.includeUnknownSalary) els.includeUnknownSalary.checked = view.includeUnknownSalary !== false;
+  els.sort.value = view.sort || 'newest';
+  render();
+}
+
+function saveCurrentFilterView() {
+  const view = serializeFilterView();
+  localStorage.setItem(STORAGE_KEYS.filterView, JSON.stringify(view));
+  render();
+  const choiceCount = filterChoiceCount(view);
+  showToast(`Filter view saved (${choiceCount} active ${choiceCount === 1 ? 'filter' : 'filters'}).`, null);
+}
+
+function loadSavedFilterView() {
+  const view = readSavedFilterView();
+  if (!view) {
+    showToast('No saved filter view yet.', null);
+    return;
+  }
+  applyFilterView(view);
+  showToast('Saved filter view loaded.', null);
 }
 
 function setView(view) {
@@ -847,11 +1022,12 @@ function showToast(message, undoAction) {
 
 function exportLocalData() {
   const data = {
-    version: 2,
+    version: 3,
     exportedAt: new Date().toISOString(),
     savedJobs: [...state.saved],
     hiddenJobs: [...state.hidden],
-    applicationStages: state.stages
+    applicationStages: state.stages,
+    savedFilterView: readSavedFilterView()
   };
 
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
@@ -875,6 +1051,9 @@ function importLocalData(file) {
       state.stages = data.applicationStages && typeof data.applicationStages === 'object'
         ? data.applicationStages
         : {};
+      if (data.savedFilterView && typeof data.savedFilterView === 'object') {
+        localStorage.setItem(STORAGE_KEYS.filterView, JSON.stringify(data.savedFilterView));
+      }
 
       saveState();
       render();
@@ -908,8 +1087,8 @@ async function loadData() {
       : 'Updated automatically';
 
     populateIndustryOptions();
-    bindStaticMultiSelect(els.locationOptions, state.locations);
-    bindStaticMultiSelect(els.tierOptions, state.tiers);
+    bindTriStateMultiSelect(els.locationOptions, state.locations, state.excludedLocations);
+    bindTriStateMultiSelect(els.tierOptions, state.tiers, state.excludedTiers);
     migrateLegacyAppliedState();
     render();
   } catch (err) {
@@ -924,6 +1103,8 @@ els.sort.addEventListener('change', render);
 if (els.salary) els.salary.addEventListener('change', render);
 if (els.includeUnknownSalary) els.includeUnknownSalary.addEventListener('change', render);
 els.resetFilters.addEventListener('click', resetFilters);
+if (els.saveFilterView) els.saveFilterView.addEventListener('click', saveCurrentFilterView);
+if (els.loadFilterView) els.loadFilterView.addEventListener('click', loadSavedFilterView);
 
 document.querySelector('#showTodayBtn').onclick = () => setView('today');
 document.querySelector('#showSavedBtn').onclick = () => setView('saved');
@@ -933,8 +1114,8 @@ document.querySelector('#showHiddenBtn').onclick = () => setView('hidden');
 document.querySelector('#clearViewBtn').onclick = () => {
   state.view = 'all';
   state.mainView = true;
-  state.quick.clear();
-  state.locations.clear();
+  clearTriState(state.quick, state.excludedQuick);
+  clearTriState(state.locations, state.excludedLocations);
   render();
 };
 

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Job Recruiting Dashboard</title>
   <meta name="description" content="An early-career job recruiting dashboard for product, strategy, operations, consulting, and related business roles." />
-  <link rel="stylesheet" href="styles.css?v=10" />
+  <link rel="stylesheet" href="styles.css?v=12" />
 </head>
 <body>
   <div class="shell">
@@ -29,7 +29,7 @@
           <label class="ghost full import-label" for="importInput">Import local data</label>
           <input id="importInput" type="file" accept="application/json" hidden />
         </div>
-        <p class="privacy-note">Saved, hidden, and application-status data stays in this browser unless you export it.</p>
+        <p class="privacy-note">Saved jobs, filter views, hidden jobs, and application-status data stay in this browser unless you export them.</p>
         <p id="refreshStamp">Waiting for data…</p>
         <p id="coverageStamp"></p>
       </div>
@@ -138,9 +138,15 @@
         </select>
 
         <button class="reset-filter" id="resetFilters" type="button">Reset filters</button>
+
+        <div class="filter-view-actions">
+          <button class="reset-filter" id="saveFilterView" type="button">Save view</button>
+          <button class="reset-filter" id="loadFilterView" type="button" disabled>Load saved</button>
+        </div>
       </section>
 
       <section class="quick-filters" id="quickFilters"></section>
+      <p class="filter-help">Filter controls cycle: include → exclude <strong>×</strong> → default.</p>
 
       <section class="section-heading">
         <div>
@@ -202,6 +208,6 @@
     <button id="toastUndo" type="button">Undo</button>
   </div>
 
-  <script src="app.js?v=10" defer></script>
+  <script src="app.js?v=15" defer></script>
 </body>
 </html>

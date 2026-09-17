@@ -65,7 +65,11 @@ button { cursor: pointer; }
   display: flex; justify-content: space-between; gap: 10px;
 }
 .nav button:hover, .nav button.active { color: white; background: #22262a; }
+.nav button.excluded { color: #ffc7c7; background: #351f22; }
 .nav .count { color: #7e8790; }
+.nav-meta { display: flex; align-items: center; gap: 7px; }
+.exclude-mark { display: none; font-size: 15px; line-height: 1; font-weight: 900; }
+.excluded .exclude-mark { display: inline; }
 .sidebar-footer { display: grid; gap: 9px; }
 .data-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
 .import-label {
@@ -135,7 +139,7 @@ main { padding: 34px 42px 64px; max-width: 1550px; width: 100%; margin: 0 auto; 
 .toolbar {
   padding: 10px;
   display: grid;
-  grid-template-columns: minmax(260px, 1.4fr) repeat(6, minmax(125px, auto));
+  grid-template-columns: minmax(260px, 1.4fr) repeat(8, minmax(125px, auto));
   gap: 8px;
   align-items: stretch;
 }
@@ -181,6 +185,11 @@ select {
 }
 .multi-option:hover { background: #f5f6f7; }
 .multi-option input { width: 15px; height: 15px; margin: 0; accent-color: #17191b; }
+.multi-option.excluded { color: var(--red); background: var(--red-soft); }
+.multi-option .filter-x {
+  display: none; margin-left: auto; color: var(--red); font-size: 15px; line-height: 1; font-weight: 900;
+}
+.multi-option.excluded .filter-x { display: inline; }
 .featured-option { font-weight: 800; background: #f7f8f9; }
 .multi-divider { height: 1px; background: var(--line); margin: 5px 2px; }
 
@@ -189,10 +198,16 @@ select {
   color: #59616a; padding: 10px 12px; font-size: 12px; font-weight: 800; white-space: nowrap;
 }
 .reset-filter:hover { background: #eef1f4; color: var(--text); }
+.reset-filter:disabled { cursor: not-allowed; opacity: .48; }
+.filter-view-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; min-width: 210px; }
 
-.quick-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 28px; }
+.quick-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 8px; }
 .chip { background: white; border: 1px solid var(--line); border-radius: 999px; padding: 8px 11px; font-size: 12px; }
 .chip.active { background: #191b1e; color: white; border-color: #191b1e; }
+.chip.excluded { background: var(--red-soft); color: var(--red); border-color: #efcaca; }
+.chip .exclude-mark { margin-left: 4px; }
+.filter-help { margin: 0 0 28px; color: var(--muted); font-size: 11px; }
+.filter-help strong { color: var(--red); font-size: 13px; }
 
 .section-heading { display: flex; justify-content: space-between; align-items: end; margin-bottom: 12px; }
 .section-heading h3 { margin: 0; font-size: 22px; }
