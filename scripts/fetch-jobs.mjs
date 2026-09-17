@@ -206,6 +206,12 @@ function experienceBand(job) {
 function isTarget(job) {
   const title = String(job.title || '').toLowerCase();
   if (!title) return false;
+
+  // Some community feeds are already curated to a specific role family. Trust
+  // that source-level classification so every parsed listing remains visible,
+  // even when its title does not match the dashboard's general keyword rules.
+  if (job.includeFromSource && job.categoryHint) return true;
+
   if (TARGET.excludeTitleTerms.some(x => title.includes(x))) return false;
 
   const category = classify(job.title, job.description);
@@ -469,6 +475,9 @@ async function jobrightMarkdown(source) {
       source: source.name || 'Jobright',
       employmentType: source.careerHint || '',
       description: `${source.careerHint || 'Early Career'} community job feed. Work model: ${stripMarkdown(cells[3])}`,
+      categoryHint: source.category || null,
+      includeFromSource: source.includeAll === true,
+      preserveSourceEntry: source.includeAll === true,
       ...communityMeta(company)
     });
   }
@@ -647,7 +656,7 @@ const batches = await mapLimit(sourceTasks, 5, async task => {
 const raw = batches.flat();
 
 const jobs = raw.filter(isTarget).map(j => {
-  const category = classify(j.title, j.description);
+  const category = j.categoryHint || classify(j.title, j.description);
   const tags = [];
   const text = `${j.title || ''} ${j.description || ''}`.toLowerCase();
 
@@ -681,6 +690,7 @@ const jobs = raw.filter(isTarget).map(j => {
     tags,
     matchScore: scored.overall,
     scoreBreakdown: scored.breakdown,
+    dedupeByUrl: j.preserveSourceEntry === true,
     ...salary
   };
 });
@@ -692,6 +702,7 @@ const SOURCE_PRIORITY = {
 
 function dedupeKey(job) {
   const n = x => String(x || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  if (job.dedupeByUrl) return `url|${String(job.url || '').trim()}`;
   return `${n(job.company)}|${n(job.title)}|${n(job.location)}`;
 }
 
@@ -704,6 +715,7 @@ for (const job of jobs) {
 
 const deduped = [...dedupeMap.values()]
   .sort((a,b) => new Date(b.postedAt || 0) - new Date(a.postedAt || 0));
+const outputJobs = deduped.map(({ dedupeByUrl, ...job }) => job);
 
 const successfulSources = sourceHealth.filter(x => x.status === 'ok').length;
 const failedSources = sourceHealth.filter(x => x.status !== 'ok').length;
@@ -713,20 +725,20 @@ await fs.writeFile(
   new URL('../data/jobs.json', import.meta.url),
   JSON.stringify({
     generatedAt: new Date().toISOString(),
-    count: deduped.length,
+    count: outputJobs.length,
     rawCount: raw.length,
     sourceCount: sourceTasks.length,
     directSourceCount: (config.greenhouse || []).length + (config.lever || []).length + (config.ashby || []).length + (config.workday || []).length,
     communityFeedCount: (config.community || []).length,
     successfulSources,
     failedSources,
-    salaryKnownCount: deduped.filter(j => j.salaryKnown).length,
+    salaryKnownCount: outputJobs.filter(j => j.salaryKnown).length,
     sourceHealth: sourceHealth.sort((a,b) => a.company.localeCompare(b.company)),
-    jobs: deduped
+    jobs: outputJobs
   }, null, 2)
 );
 
-console.log(`Saved ${deduped.length} matching jobs from ${raw.length} fetched postings across ${successfulSources}/${sourceTasks.length} successful sources.`);
+console.log(`Saved ${outputJobs.length} matching jobs from ${raw.length} fetched postings across ${successfulSources}/${sourceTasks.length} successful sources.`);
 console.log(`Direct ATS sources: ${(config.greenhouse || []).length + (config.lever || []).length + (config.ashby || []).length + (config.workday || []).length}; community feeds: ${(config.community || []).length}.`);
-console.log(`Salary parsed for ${deduped.filter(j => j.salaryKnown).length} matching jobs.`);
+console.log(`Salary parsed for ${outputJobs.filter(j => j.salaryKnown).length} matching jobs.`);
 if (failedSources) console.log(`${failedSources} source(s) failed; see sourceHealth in data/jobs.json.`);

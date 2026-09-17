@@ -129,3 +129,9 @@ The current Apply ASAP rule requires:
 Selecting another quick filter, location, category, salary, freshness, search term, or top-level view exits Main View so the user's manual filters take control.
 
 `Reset filters` returns the dashboard to Main View.
+
+## v3.4 — Complete Jobright product feed
+
+- The Jobright Product Management New Grad feed is treated as an already-curated Product source.
+- Every valid table row from that feed is included in the dashboard, including titles that do not match the broader keyword classifier.
+- Distinct Jobright posting URLs are preserved even when company, title, and location are identical.

@@ -486,7 +486,9 @@
       "name": "Jobright — Product Management New Grad",
       "type": "jobright-markdown",
       "url": "https://raw.githubusercontent.com/jobright-ai/2026-Product-Management-New-Grad/master/README.md",
-      "careerHint": "New Grad"
+      "careerHint": "New Grad",
+      "category": "Product",
+      "includeAll": true
     },
     {
       "name": "Jobright — Product Management Internships",
