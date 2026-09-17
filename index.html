@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Job Recruiting Dashboard</title>
   <meta name="description" content="An early-career job recruiting dashboard for product, strategy, operations, consulting, and related business roles." />
-  <link rel="stylesheet" href="styles.css?v=12" />
+  <link rel="stylesheet" href="styles.css?v=16" />
 </head>
 <body>
   <div class="shell">
@@ -50,25 +50,12 @@
         </div>
       </header>
 
-      <details class="action-queue action-queue-compact card" id="actionQueueDetails">
-        <summary>
-          <div class="action-summary-copy">
-            <span class="action-summary-count" id="actionQueuePriorityCount">0</span>
-            <span><strong>High Fit or Priority A Roles</strong> posted in the past 24 hours</span>
-          </div>
-          <span class="action-expand-label">Expand queue <span class="action-caret">⌄</span></span>
-        </summary>
-        <div class="action-queue-expanded">
-          <div class="action-queue-head">
-            <div>
-              <p class="eyebrow">ACTION QUEUE</p>
-              <h3 id="actionQueueTitle">What needs attention</h3>
-            </div>
-            <button class="text-btn" id="clearViewBtn" type="button">View all jobs</button>
-          </div>
-          <div class="action-grid" id="actionQueue"></div>
+      <section class="action-queue action-queue-compact card" aria-label="High-priority roles posted in the past 24 hours">
+        <div class="action-queue-summary">
+          <span class="action-summary-count" id="actionQueuePriorityCount">0</span>
+          <span><strong>High Fit or Priority A Roles</strong> posted in the past 24 hours</span>
         </div>
-      </details>
+      </section>
 
       <section class="stats" id="stats"></section>
 
@@ -208,6 +195,6 @@
     <button id="toastUndo" type="button">Undo</button>
   </div>
 
-  <script src="app.js?v=15" defer></script>
+  <script src="app.js?v=16" defer></script>
 </body>
 </html>

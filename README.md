@@ -142,3 +142,10 @@ Selecting another quick filter, location, category, salary, freshness, search te
 - Excluded filters use a red `×` state and override included filters, making it possible to remove locations or job types from a broader search.
 - `New Grad` now excludes internships even when a listing carries both labels.
 - One filter view can be saved in local browser storage and restored later; exported local data includes the saved view.
+
+## v3.6 — Seven-day live feed and tracked-job retention
+
+- The Action Queue is now a fixed summary showing only high-fit or Priority A roles posted in the past 24 hours; the expandable queue was removed.
+- Untracked jobs disappear from the live dashboard after seven days.
+- Changing a job status or saving it stores a browser-local job snapshot, so it remains available after seven days or after the source feed removes it.
+- Returning a tracked job to `Not started` removes its retained snapshot.

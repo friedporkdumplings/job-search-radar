@@ -3,7 +3,8 @@ const STORAGE_KEYS = {
   hidden: 'hiddenJobs',
   legacyApplied: 'appliedJobs',
   stages: 'jobApplicationStages',
-  filterView: 'savedFilterView'
+  filterView: 'savedFilterView',
+  trackedJobs: 'trackedJobSnapshots'
 };
 
 const STAGES = [
@@ -38,6 +39,7 @@ const state = {
   saved: new Set(readArray(STORAGE_KEYS.saved)),
   hidden: new Set(readArray(STORAGE_KEYS.hidden)),
   stages: readObject(STORAGE_KEYS.stages),
+  trackedJobs: readObject(STORAGE_KEYS.trackedJobs),
   lastHiddenId: null,
 };
 
@@ -64,7 +66,6 @@ const els = {
   tierOptions: document.querySelector('#tierOptions'),
   tierSummary: document.querySelector('#tierSummary'),
   resetFilters: document.querySelector('#resetFilters'),
-  actionQueue: document.querySelector('#actionQueue'),
   actionQueuePriorityCount: document.querySelector('#actionQueuePriorityCount'),
   salary: document.querySelector('#salaryFilter'),
   includeUnknownSalary: document.querySelector('#includeUnknownSalary'),
@@ -233,6 +234,50 @@ function saveState() {
   localStorage.setItem(STORAGE_KEYS.saved, JSON.stringify([...state.saved]));
   localStorage.setItem(STORAGE_KEYS.hidden, JSON.stringify([...state.hidden]));
   localStorage.setItem(STORAGE_KEYS.stages, JSON.stringify(state.stages));
+  localStorage.setItem(STORAGE_KEYS.trackedJobs, JSON.stringify(state.trackedJobs));
+}
+
+function shouldRetainJob(id) {
+  return state.saved.has(id) || Boolean(state.stages[id] && state.stages[id] !== 'Not started');
+}
+
+function trackJobSnapshot(id) {
+  const job = state.jobs.find(item => item.id === id);
+  if (job) state.trackedJobs[id] = { ...job };
+}
+
+function syncTrackedJobSnapshots(jobs) {
+  const jobsById = new Map(jobs.map(job => [job.id, job]));
+  const retainedIds = new Set([...state.saved, ...Object.keys(state.stages)]);
+
+  retainedIds.forEach(id => {
+    if (!shouldRetainJob(id)) return;
+    const job = jobsById.get(id);
+    if (job) state.trackedJobs[id] = { ...job };
+  });
+
+  Object.keys(state.trackedJobs).forEach(id => {
+    if (!shouldRetainJob(id)) delete state.trackedJobs[id];
+  });
+}
+
+function isWithinLiveWindow(job) {
+  if (!job.postedAt) return true;
+  const posted = new Date(job.postedAt).getTime();
+  if (!Number.isFinite(posted)) return true;
+  return ageInDays(job.postedAt) <= 7;
+}
+
+function applyJobRetention(jobs) {
+  syncTrackedJobSnapshots(jobs);
+  const retained = jobs.filter(job => isWithinLiveWindow(job) || shouldRetainJob(job.id));
+  const ids = new Set(retained.map(job => job.id));
+
+  Object.entries(state.trackedJobs).forEach(([id, job]) => {
+    if (shouldRetainJob(id) && !ids.has(id)) retained.push({ ...job, retainedByStatus: true });
+  });
+
+  return retained;
 }
 
 function ageInDays(dateString) {
@@ -266,12 +311,14 @@ function setStage(id, stage) {
   if (stage === 'Not started') {
     delete state.stages[id];
     state.saved.delete(id);
+    delete state.trackedJobs[id];
   } else {
     state.stages[id] = stage;
     if (stage === 'Saved') state.saved.add(id);
     if (stage !== 'Saved' && state.saved.has(id)) {
       // Keep the star as an independent bookmark unless explicitly unsaved.
     }
+    trackJobSnapshot(id);
   }
   saveState();
 }
@@ -500,81 +547,16 @@ function renderStats() {
     .join('');
 }
 
-function actionCounts() {
-  const newPriority = state.jobs.filter(job =>
+function priorityActionCount() {
+  return state.jobs.filter(job =>
     !state.hidden.has(job.id) &&
     ageInDays(job.postedAt) <= 1 &&
-    ((job.matchScore || 0) >= 85 || job.companyTier === 'A') &&
-    getStage(job.id) === 'Not started'
+    ((job.matchScore || 0) >= 85 || job.companyTier === 'A')
   ).length;
-
-  const savedUnapplied = state.jobs.filter(job =>
-    !state.hidden.has(job.id) &&
-    (state.saved.has(job.id) || getStage(job.id) === 'Saved') &&
-    ['Not started','Saved'].includes(getStage(job.id))
-  ).length;
-
-  const applying = Object.values(state.stages).filter(stage => stage === 'Applying').length;
-  const interviews = Object.values(state.stages).filter(stage =>
-    ['OA / Assessment','Interview','Final Round'].includes(stage)
-  ).length;
-
-  return { newPriority, savedUnapplied, applying, interviews };
 }
 
 function renderActionQueue() {
-  const counts = actionCounts();
-  if (els.actionQueuePriorityCount) els.actionQueuePriorityCount.textContent = counts.newPriority;
-
-  const items = [
-    {
-      count: counts.newPriority,
-      label: 'High-fit or Priority A roles posted in the past 24 hours',
-      cls: 'urgent',
-      action: () => {
-        state.view = 'today';
-        clearTriState(state.quick, state.excludedQuick);
-        render();
-      }
-    },
-    {
-      count: counts.savedUnapplied,
-      label: 'Saved roles that have not moved into an application yet',
-      cls: '',
-      action: () => {
-        state.view = 'saved';
-        render();
-      }
-    },
-    {
-      count: counts.applying,
-      label: 'Applications currently marked Applying',
-      cls: 'progress',
-      action: () => {
-        state.view = 'pipeline';
-        render();
-      }
-    },
-    {
-      count: counts.interviews,
-      label: 'Applications at assessment or interview stages',
-      cls: 'interview',
-      action: () => {
-        state.view = 'pipeline';
-        render();
-      }
-    }
-  ];
-
-  els.actionQueue.innerHTML = '';
-  items.forEach(item => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = `action-item ${item.cls}`;
-    btn.innerHTML = `<strong>${item.count}</strong><span>${item.label}</span>`;
-    btn.onclick = item.action;
-    els.actionQueue.appendChild(btn);
-  });
+  if (els.actionQueuePriorityCount) els.actionQueuePriorityCount.textContent = priorityActionCount();
 }
 
 function initials(company) {
@@ -669,9 +651,11 @@ function createJobNode(job) {
     if (state.saved.has(job.id)) {
       state.saved.delete(job.id);
       if (state.stages[job.id] === 'Saved') delete state.stages[job.id];
+      if (!shouldRetainJob(job.id)) delete state.trackedJobs[job.id];
     } else {
       state.saved.add(job.id);
       if (!state.stages[job.id]) state.stages[job.id] = 'Saved';
+      trackJobSnapshot(job.id);
     }
     saveState();
     render();
@@ -1022,11 +1006,12 @@ function showToast(message, undoAction) {
 
 function exportLocalData() {
   const data = {
-    version: 3,
+    version: 4,
     exportedAt: new Date().toISOString(),
     savedJobs: [...state.saved],
     hiddenJobs: [...state.hidden],
     applicationStages: state.stages,
+    trackedJobs: state.trackedJobs,
     savedFilterView: readSavedFilterView()
   };
 
@@ -1051,10 +1036,14 @@ function importLocalData(file) {
       state.stages = data.applicationStages && typeof data.applicationStages === 'object'
         ? data.applicationStages
         : {};
+      state.trackedJobs = data.trackedJobs && typeof data.trackedJobs === 'object' && !Array.isArray(data.trackedJobs)
+        ? data.trackedJobs
+        : {};
       if (data.savedFilterView && typeof data.savedFilterView === 'object') {
         localStorage.setItem(STORAGE_KEYS.filterView, JSON.stringify(data.savedFilterView));
       }
 
+      state.jobs = applyJobRetention(state.jobs);
       saveState();
       render();
       showToast('Local recruiting data imported.', null);
@@ -1078,7 +1067,9 @@ async function loadData() {
 
     const payload = await jobRes.json();
     state.payload = payload;
-    state.jobs = (payload.jobs || []).map(job => ({ ...job, category: canonicalCategory(job.category) }));
+    const fetchedJobs = (payload.jobs || []).map(job => ({ ...job, category: canonicalCategory(job.category) }));
+    state.jobs = applyJobRetention(fetchedJobs);
+    saveState();
 
     if (universeRes?.ok) state.universe = await universeRes.json();
 
@@ -1110,14 +1101,6 @@ document.querySelector('#showTodayBtn').onclick = () => setView('today');
 document.querySelector('#showSavedBtn').onclick = () => setView('saved');
 document.querySelector('#showPipelineBtn').onclick = () => setView('pipeline');
 document.querySelector('#showHiddenBtn').onclick = () => setView('hidden');
-
-document.querySelector('#clearViewBtn').onclick = () => {
-  state.view = 'all';
-  state.mainView = true;
-  clearTriState(state.quick, state.excludedQuick);
-  clearTriState(state.locations, state.excludedLocations);
-  render();
-};
 
 document.querySelector('#exportBtn').onclick = exportLocalData;
 
