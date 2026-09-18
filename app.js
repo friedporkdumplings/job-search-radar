@@ -289,8 +289,7 @@ function ageInDays(dateString) {
 function ageLabel(dateString) {
   const days = ageInDays(dateString);
   if (!Number.isFinite(days)) return 'DATE UNKNOWN';
-  if (days < 1 / 24) return 'JUST POSTED';
-  if (days < 1) return `${Math.max(1, Math.floor(days * 24))}H AGO`;
+  if (days < 1) return `${Math.floor(days * 24)}H AGO`;
   if (days < 2) return '1D AGO';
   return `${Math.floor(days)}D AGO`;
 }
@@ -731,17 +730,17 @@ function renderJobs() {
     els.feedTitle.textContent = 'Hidden jobs';
     els.emptyMessage.textContent = 'No hidden roles match these filters.';
   } else if (state.categories.size === 0 && state.excludedCategories.size === 0) {
-    els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 6 HOURS';
+    els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 3 HOURS';
     els.feedTitle.textContent = 'All matching jobs';
     els.emptyMessage.textContent = 'Try widening freshness, industry, company tier, or location.';
   } else if (state.categories.size === 0) {
-    els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 6 HOURS';
+    els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 3 HOURS';
     els.feedTitle.textContent = `${state.excludedCategories.size} ${state.excludedCategories.size === 1 ? 'category' : 'categories'} excluded`;
   } else if (state.categories.size <= 2) {
-    els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 6 HOURS';
+    els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 3 HOURS';
     els.feedTitle.textContent = [...state.categories].join(' + ');
   } else {
-    els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 6 HOURS';
+    els.feedEyebrow.textContent = 'LIVE FEED · REFRESHES EVERY 3 HOURS';
     els.feedTitle.textContent = `${state.categories.size} categories selected`;
   }
 

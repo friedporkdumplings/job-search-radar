@@ -149,3 +149,8 @@ Selecting another quick filter, location, category, salary, freshness, search te
 - Untracked jobs disappear from the live dashboard after seven days.
 - Changing a job status or saving it stores a browser-local job snapshot, so it remains available after seven days or after the source feed removes it.
 - Returning a tracked job to `Not started` removes its retained snapshot.
+
+## v3.7 — Hour-precise recent labels and faster refreshes
+
+- Jobs posted less than 24 hours ago show completed hours from `0H AGO` through `23H AGO`.
+- The automated job refresh now runs every three hours, at 17 minutes past the hour.
