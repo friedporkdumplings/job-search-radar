@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T05:52:21.305Z",
-  "count": 1288,
-  "rawCount": 12891,
+  "generatedAt": "2026-10-04T12:21:49.331Z",
+  "count": 1282,
+  "rawCount": 12880,
   "sourceCount": 79,
   "directSourceCount": 67,
   "communityFeedCount": 12,
@@ -14,35 +14,35 @@
       "ats": "Ashby",
       "status": "ok",
       "fetched": 69,
-      "ms": 62
+      "ms": 156
     },
     {
       "company": "Affirm",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 189,
-      "ms": 425
+      "ms": 419
     },
     {
       "company": "Airbnb",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 154,
-      "ms": 249
+      "ms": 169
     },
     {
       "company": "Airtable",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 4,
-      "ms": 114
+      "ms": 107
     },
     {
       "company": "Airwallex",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 549,
-      "ms": 258
+      "ms": 207
     },
     {
       "company": "Anthropic",
@@ -50,336 +50,336 @@
       "status": "error",
       "fetched": 0,
       "error": "404 Not Found: https://api.ashbyhq.com/posting-api/job-board/anthropic",
-      "ms": 2150
+      "ms": 2257
     },
     {
       "company": "ApplyGuy — 2027 Product Internships",
       "ats": "Community JSON",
       "status": "ok",
       "fetched": 0,
-      "ms": 17
+      "ms": 42
     },
     {
       "company": "BlackRock",
       "ats": "Workday",
       "status": "ok",
       "fetched": 73,
-      "ms": 14368
+      "ms": 14781
     },
     {
       "company": "Bristol Myers Squibb",
       "ats": "Workday",
       "status": "ok",
       "fetched": 0,
-      "ms": 57803
+      "ms": 61951
     },
     {
       "company": "Bumble",
       "ats": "Lever",
       "status": "ok",
       "fetched": 0,
-      "ms": 431
+      "ms": 239
     },
     {
       "company": "Capital One",
       "ats": "Workday",
       "status": "ok",
       "fetched": 34,
-      "ms": 10794
+      "ms": 10675
     },
     {
       "company": "Chime",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 66,
-      "ms": 161
+      "ms": 115
     },
     {
       "company": "Citi",
       "ats": "Workday",
       "status": "ok",
       "fetched": 208,
-      "ms": 69846
+      "ms": 68803
     },
     {
       "company": "Cloudflare",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 405,
-      "ms": 873
+      "ms": 720
     },
     {
       "company": "Cohere",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 137,
-      "ms": 77
+      "ms": 180
     },
     {
       "company": "Comcast",
       "ats": "Workday",
       "status": "ok",
       "fetched": 47,
-      "ms": 8447
+      "ms": 9661
     },
     {
       "company": "Crusoe",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 351,
-      "ms": 157
+      "ms": 193
     },
     {
       "company": "CVS Health",
       "ats": "Workday",
       "status": "ok",
       "fetched": 73,
-      "ms": 15268
+      "ms": 28941
     },
     {
       "company": "Databricks",
       "ats": "Greenhouse",
       "status": "ok",
-      "fetched": 886,
-      "ms": 885
+      "fetched": 887,
+      "ms": 785
     },
     {
       "company": "Datadog",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 444,
-      "ms": 536
+      "ms": 628
     },
     {
       "company": "Decagon",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 148,
-      "ms": 53
+      "ms": 133
     },
     {
       "company": "Deel",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 0,
-      "ms": 14
+      "ms": 31
     },
     {
       "company": "Discord",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 51,
-      "ms": 118
+      "ms": 122
     },
     {
       "company": "Disney",
       "ats": "Workday",
       "status": "ok",
       "fetched": 59,
-      "ms": 14591
+      "ms": 14788
     },
     {
       "company": "Duolingo",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 59,
-      "ms": 76
+      "ms": 234
     },
     {
       "company": "Fidelity International",
       "ats": "Workday",
       "status": "ok",
       "fetched": 24,
-      "ms": 22085
+      "ms": 23919
     },
     {
       "company": "Figma",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 162,
-      "ms": 356
+      "ms": 320
     },
     {
       "company": "GitLab",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 211,
-      "ms": 300
+      "ms": 342
     },
     {
       "company": "Gopuff",
       "ats": "Lever",
       "status": "ok",
       "fetched": 795,
-      "ms": 2784
+      "ms": 1627
     },
     {
       "company": "Harvey",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 326,
-      "ms": 129
+      "ms": 133
     },
     {
       "company": "Instacart",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 131,
-      "ms": 97
+      "ms": 162
     },
     {
       "company": "Jobright — Business Analyst Internships",
       "ats": "Community Feed",
       "status": "ok",
       "fetched": 100,
-      "ms": 71
+      "ms": 101
     },
     {
       "company": "Jobright — Business Analyst New Grad",
       "ats": "Community Feed",
       "status": "ok",
       "fetched": 73,
-      "ms": 165
+      "ms": 225
     },
     {
       "company": "Jobright — Consultant Internships",
       "ats": "Community Feed",
       "status": "ok",
       "fetched": 100,
-      "ms": 60
+      "ms": 103
     },
     {
       "company": "Jobright — Consultant New Grad",
       "ats": "Community Feed",
       "status": "ok",
-      "fetched": 432,
-      "ms": 77
+      "fetched": 430,
+      "ms": 111
     },
     {
       "company": "Jobright — Data Analysis New Grad",
       "ats": "Community Feed",
       "status": "ok",
-      "fetched": 347,
-      "ms": 43
+      "fetched": 344,
+      "ms": 71
     },
     {
       "company": "Jobright — Marketing New Grad",
       "ats": "Community Feed",
       "status": "ok",
-      "fetched": 1546,
-      "ms": 75
+      "fetched": 1536,
+      "ms": 353
     },
     {
       "company": "Jobright — Product Management Internships",
       "ats": "Community Feed",
       "status": "ok",
       "fetched": 100,
-      "ms": 54
+      "ms": 87
     },
     {
       "company": "Jobright — Product Management New Grad",
       "ats": "Community Feed",
       "status": "ok",
-      "fetched": 205,
-      "ms": 63
+      "fetched": 202,
+      "ms": 97
     },
     {
       "company": "Johnson & Johnson",
       "ats": "Workday",
       "status": "ok",
-      "fetched": 44,
-      "ms": 13593
+      "fetched": 45,
+      "ms": 13698
     },
     {
       "company": "Linear",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 30,
-      "ms": 21
+      "ms": 152
     },
     {
       "company": "Mastercard",
       "ats": "Workday",
       "status": "ok",
-      "fetched": 43,
-      "ms": 23863
+      "fetched": 42,
+      "ms": 26272
     },
     {
       "company": "Medtronic",
       "ats": "Workday",
       "status": "ok",
       "fetched": 173,
-      "ms": 54874
+      "ms": 60669
     },
     {
       "company": "Mercury",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 0,
-      "ms": 13
+      "ms": 62
     },
     {
       "company": "Morgan Stanley",
       "ats": "Workday",
       "status": "ok",
       "fetched": 76,
-      "ms": 36394
+      "ms": 28032
     },
     {
       "company": "Nike",
       "ats": "Workday",
       "status": "ok",
-      "fetched": 48,
-      "ms": 9985
+      "fetched": 49,
+      "ms": 11966
     },
     {
       "company": "Notion",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 137,
-      "ms": 185
+      "ms": 210
     },
     {
       "company": "OpenAI",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 828,
-      "ms": 341
+      "ms": 352
     },
     {
       "company": "Oura",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 80,
-      "ms": 181
+      "ms": 114
     },
     {
       "company": "PepsiCo",
       "ats": "Workday",
       "status": "ok",
       "fetched": 0,
-      "ms": 59221
+      "ms": 61597
     },
     {
       "company": "PM Recruiting Hub — New Grad",
       "ats": "Community Feed",
       "status": "ok",
       "fetched": 5,
-      "ms": 63
+      "ms": 89
     },
     {
       "company": "PM Recruiting Hub — Product Management",
       "ats": "Community Feed",
       "status": "ok",
       "fetched": 6,
-      "ms": 91
+      "ms": 160
     },
     {
       "company": "PM Recruiting Hub — Product Operations",
       "ats": "Community Feed",
       "status": "ok",
       "fetched": 1,
-      "ms": 69
+      "ms": 120
     },
     {
       "company": "Postman",
@@ -387,185 +387,248 @@
       "status": "error",
       "fetched": 0,
       "error": "404 Not Found: https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true",
-      "ms": 2497
+      "ms": 2611
     },
     {
       "company": "Procter & Gamble",
       "ats": "Workday",
       "status": "ok",
       "fetched": 0,
-      "ms": 57664
+      "ms": 62016
     },
     {
       "company": "Ramp",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 157,
-      "ms": 70
+      "ms": 98
     },
     {
       "company": "Reddit",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 152,
-      "ms": 376
+      "ms": 168
     },
     {
       "company": "Replit",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 72,
-      "ms": 39
+      "ms": 50
     },
     {
       "company": "Robinhood",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 162,
-      "ms": 466
+      "ms": 468
     },
     {
       "company": "S&P Global",
       "ats": "Workday",
       "status": "ok",
-      "fetched": 90,
-      "ms": 32121
+      "fetched": 91,
+      "ms": 32193
     },
     {
       "company": "Samsara",
       "ats": "Greenhouse",
       "status": "ok",
-      "fetched": 246,
-      "ms": 253
+      "fetched": 247,
+      "ms": 455
     },
     {
       "company": "Sierra",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 194,
-      "ms": 90
+      "ms": 120
     },
     {
       "company": "Snowflake",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 348,
-      "ms": 127
+      "ms": 151
     },
     {
       "company": "Spotify",
       "ats": "Lever",
       "status": "ok",
       "fetched": 82,
-      "ms": 1623
+      "ms": 731
     },
     {
       "company": "Starbucks",
       "ats": "Workday",
       "status": "ok",
       "fetched": 0,
-      "ms": 63107
+      "ms": 63943
     },
     {
       "company": "Stripe",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 716,
-      "ms": 441
+      "ms": 341
     },
     {
       "company": "Target",
       "ats": "Workday",
       "status": "ok",
-      "fetched": 33,
-      "ms": 42237
+      "fetched": 36,
+      "ms": 37374
     },
     {
       "company": "Thomson Reuters",
       "ats": "Workday",
       "status": "ok",
       "fetched": 44,
-      "ms": 30297
+      "ms": 26633
     },
     {
       "company": "Twitch",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 50,
-      "ms": 128
+      "ms": 185
     },
     {
       "company": "Unilever",
       "ats": "Workday",
       "status": "ok",
       "fetched": 41,
-      "ms": 28804
+      "ms": 31973
     },
     {
       "company": "UnitedHealth Group / Optum",
       "ats": "Workday",
       "status": "ok",
       "fetched": 0,
-      "ms": 62299
+      "ms": 62892
     },
     {
       "company": "Vanguard",
       "ats": "Workday",
       "status": "ok",
       "fetched": 89,
-      "ms": 43357
+      "ms": 36079
     },
     {
       "company": "Vanta",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 84,
-      "ms": 108
+      "ms": 57
     },
     {
       "company": "Vercel",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 0,
-      "ms": 13
+      "ms": 212
     },
     {
       "company": "Walmart",
       "ats": "Workday",
       "status": "ok",
       "fetched": 0,
-      "ms": 61947
+      "ms": 63172
     },
     {
       "company": "Warner Bros. Discovery",
       "ats": "Workday",
       "status": "ok",
       "fetched": 61,
-      "ms": 26451
+      "ms": 27433
     },
     {
       "company": "West Monroe",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 0,
-      "ms": 35
+      "ms": 72
     },
     {
       "company": "West Monroe",
       "ats": "Greenhouse",
       "status": "ok",
       "fetched": 117,
-      "ms": 201
+      "ms": 407
     },
     {
       "company": "Zip",
       "ats": "Ashby",
       "status": "ok",
       "fetched": 124,
-      "ms": 45
+      "ms": 123
     }
   ],
   "jobs": [
+    {
+      "id": "612e675a79403ba209",
+      "company": "Labcorp",
+      "companyTier": "C",
+      "industry": "Healthcare / Pharma / Medtech",
+      "title": "Intern - IT Business Analyst",
+      "location": "Burlington, NC, United States",
+      "employmentType": "Internship",
+      "postedAt": "2026-10-04T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6aa4c41382e82a31997ba9ed?utm_campaign=1067&utm_source=git",
+      "source": "Jobright — Business Analyst Internships",
+      "category": "Business & Analytics",
+      "experienceBand": "Early Career",
+      "tags": [
+        "Internship"
+      ],
+      "matchScore": 81,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 70,
+        "careerFit": 88,
+        "freshness": 100
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "358d5340cbf559bbb8",
+      "company": "Procter & Gamble",
+      "companyTier": "A",
+      "industry": "Consumer / Retail",
+      "title": "Digital Marketing Technology  (2027 Grads)",
+      "location": "Cincinnati, OH, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-04T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a8cb493581f2d7bfdfe55f5?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Priority A"
+      ],
+      "matchScore": 85,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 65,
+        "companyFit": 95,
+        "careerFit": 100,
+        "freshness": 100
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
     {
       "id": "0d942e02d8c431152f",
       "company": "S&P Global",
@@ -1082,79 +1145,15 @@
       "salaryText": null
     },
     {
-      "id": "5c0d165c3b8f29fd62",
+      "id": "b03f74ba2fe9f7ef36",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "2829 Augusta Rd, West Columbia, SC 29170, USA",
+      "location": "Williamsburg, VA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a55b8ea14f1040fa611af32?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "163b48348308593c91",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Portsmouth, VA, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a720fd4ee751e0c793468b8?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "b1c30e5158de3c7b9d",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Bowling Green, KY, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a74eaea972ac843c6997f5f?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a755b5cc95371686f9b8355?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -1210,47 +1209,15 @@
       "salaryText": null
     },
     {
-      "id": "3486416b0040791a3e",
+      "id": "bfd60f367a0b8579db",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Little Rock, AR, United States",
+      "location": "Wooster, OH, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a75070e972ac843c6998992?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "4cdbe2b06321cc84a9",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Wilmington, NC, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a61407fab14335fc0f17262?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a604361129b652e9cd28309?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -1306,591 +1273,15 @@
       "salaryText": null
     },
     {
-      "id": "4af7a66584ddc8241e",
+      "id": "d26d6587b160707857",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "1655 FM 646 Rd, League City, TX 77573, USA",
+      "location": "510 Neal St, Cookeville, TN 38501, USA",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5892953330ca6f993c58e9?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "59c2d97971f4406058",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Cross Lanes, WV, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5465ed8ef95364ead956b0?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "c5f04d509d5c57fc63",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Danville, KY, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a7f931be51a1e18a2414038?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "a9d8b895922db59571",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "692 S Andy Griffith Pkwy ste 100, Mt Airy, NC 27030, USA",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a51df2057513b72e0c69419?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "e594b1a997524592af",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "San Antonio, TX, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a6470208d5360344960663e?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "954b405a4e6ab0d503",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "1840 Marion-Mt Gilead Rd, Marion, OH 43302, USA",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a56d098f7517b519ad58391?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "65d8277a597ddb406b",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Conroe, TX, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a755b5f7b3417772ade415b?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "cf6984c4d05e3e4a0e",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Selinsgrove, PA, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a720fcfe2b7476e7b210fd9?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "b69d40befe683e4453",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "2829 Augusta Rd, West Columbia, SC 29170, USA",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a0b4ba9a235d749afa83cb1?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "b63027e5b516361289",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Erie, PA, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a720fc9cb96192a3684bbf2?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "e496dc9f6e2433cf95",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "New Hudson, MI, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a6470265c7e2d715ebb01a8?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "3c610b8f444f510d80",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Rochester, NY, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a720fcf02d93145bf892451?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "316ff6dbff17170b0b",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Palestine, TX, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a591fa4c8e3a473cb8a5196?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "89bb638536837237ec",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "9149 Pearl Rd, Strongsville, OH 44136, USA",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a585aa472fe7a7b98dcdd14?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "be43e61b9291ace534",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Zanesville, OH, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5e2d1827bf767ea68f5197?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "06daf8bc56b8f71ee8",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "8501 Mexico Road, St. Peters, MO, 63376, US",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a55630b268af95237beb649?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "08349ab6123b5ca93a",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Columbus, OH, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a6470230c8e2b4f36dd1e77?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "2b2a15f7d3a23b4db3",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "DeKalb, IL, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a548b8d8ef95364ead95eb8?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "c7f54b063cd8e81d79",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Roeland Park, KS, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a64701ee8d8d22e3292cc65?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a57ce3f21f64463ad35c141?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -1946,15 +1337,15 @@
       "salaryText": null
     },
     {
-      "id": "c808c7203886d7735d",
+      "id": "fadf78bdaf580d3f65",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Weatherford, TX, United States",
+      "location": "New Hartford, NY, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a7e4189e2030208f2768827?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a56b49f53b3962b910b20f8?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -1978,15 +1369,207 @@
       "salaryText": null
     },
     {
-      "id": "a27e531ae82084a41d",
+      "id": "5c0d165c3b8f29fd62",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Commerce Township, MI, United States",
+      "location": "2829 Augusta Rd, West Columbia, SC 29170, USA",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a64702c5c7e2d715ebb01ac?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a55b8ea14f1040fa611af32?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "65d8277a597ddb406b",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Conroe, TX, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a755b5f7b3417772ade415b?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "59c2d97971f4406058",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Cross Lanes, WV, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a5465ed8ef95364ead956b0?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "b63027e5b516361289",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Erie, PA, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a720fc9cb96192a3684bbf2?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "c7f54b063cd8e81d79",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Roeland Park, KS, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a64701ee8d8d22e3292cc65?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "c5f04d509d5c57fc63",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Danville, KY, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a7f931be51a1e18a2414038?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "4682abee96b7426af0",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Neosho, MO, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a6bcc81ca1f9338465fc72b?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -2042,15 +1625,15 @@
       "salaryText": null
     },
     {
-      "id": "1cf7eb3e92385b5c7c",
+      "id": "3486416b0040791a3e",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "3101 Wabash Ave, Springfield, IL 62704, USA",
+      "location": "Little Rock, AR, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5e4925f29acc1a117467b6?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a75070e972ac843c6998992?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -2074,15 +1657,15 @@
       "salaryText": null
     },
     {
-      "id": "fadf78bdaf580d3f65",
+      "id": "b1c30e5158de3c7b9d",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "New Hartford, NY, United States",
+      "location": "Bowling Green, KY, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a56b49f53b3962b910b20f8?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a74eaea972ac843c6997f5f?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -2106,15 +1689,15 @@
       "salaryText": null
     },
     {
-      "id": "8e343a1446d5ed16ab",
+      "id": "be43e61b9291ace534",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Maple Shade, NJ, United States",
+      "location": "Zanesville, OH, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a755b56b17cba5690359ff8?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a5e2d1827bf767ea68f5197?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -2138,47 +1721,15 @@
       "salaryText": null
     },
     {
-      "id": "d26d6587b160707857",
+      "id": "b69d40befe683e4453",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "510 Neal St, Cookeville, TN 38501, USA",
+      "location": "2829 Augusta Rd, West Columbia, SC 29170, USA",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a57ce3f21f64463ad35c141?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "b03f74ba2fe9f7ef36",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Williamsburg, VA, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a755b5cc95371686f9b8355?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a0b4ba9a235d749afa83cb1?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -2234,15 +1785,463 @@
       "salaryText": null
     },
     {
-      "id": "4682abee96b7426af0",
+      "id": "89bb638536837237ec",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Neosho, MO, United States",
+      "location": "9149 Pearl Rd, Strongsville, OH 44136, USA",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a6bcc81ca1f9338465fc72b?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a585aa472fe7a7b98dcdd14?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "2b2a15f7d3a23b4db3",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "DeKalb, IL, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a548b8d8ef95364ead95eb8?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "3c610b8f444f510d80",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Rochester, NY, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a720fcf02d93145bf892451?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "e496dc9f6e2433cf95",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "New Hudson, MI, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a6470265c7e2d715ebb01a8?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "1cf7eb3e92385b5c7c",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "3101 Wabash Ave, Springfield, IL 62704, USA",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a5e4925f29acc1a117467b6?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "e594b1a997524592af",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "San Antonio, TX, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a6470208d5360344960663e?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "06daf8bc56b8f71ee8",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "8501 Mexico Road, St. Peters, MO, 63376, US",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a55630b268af95237beb649?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "4cdbe2b06321cc84a9",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Wilmington, NC, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a61407fab14335fc0f17262?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "cf6984c4d05e3e4a0e",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Selinsgrove, PA, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a720fcfe2b7476e7b210fd9?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "954b405a4e6ab0d503",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "1840 Marion-Mt Gilead Rd, Marion, OH 43302, USA",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a56d098f7517b519ad58391?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "a27e531ae82084a41d",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Commerce Township, MI, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a64702c5c7e2d715ebb01ac?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "c808c7203886d7735d",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Weatherford, TX, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a7e4189e2030208f2768827?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "08349ab6123b5ca93a",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Columbus, OH, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a6470230c8e2b4f36dd1e77?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "a9d8b895922db59571",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "692 S Andy Griffith Pkwy ste 100, Mt Airy, NC 27030, USA",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a51df2057513b72e0c69419?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "8e343a1446d5ed16ab",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Maple Shade, NJ, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a755b56b17cba5690359ff8?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -2330,15 +2329,47 @@
       "salaryText": null
     },
     {
-      "id": "bfd60f367a0b8579db",
+      "id": "4af7a66584ddc8241e",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr + Commission)",
-      "location": "Wooster, OH, United States",
+      "location": "1655 FM 646 Rd, League City, TX 77573, USA",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a604361129b652e9cd28309?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a5892953330ca6f993c58e9?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "163b48348308593c91",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr + Commission)",
+      "location": "Portsmouth, VA, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a720fd4ee751e0c793468b8?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -2554,6 +2585,105 @@
       "salaryText": null
     },
     {
+      "id": "cb4eeb736a6a77c44f",
+      "company": "WoodmenLife",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "2027 Summer Product Owner Intern",
+      "location": "Omaha, NE, United States",
+      "employmentType": "Internship",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6ac1deb58ff3fb9b3bc7e0ab?utm_campaign=1047&utm_source=git",
+      "source": "Jobright — Product Management Internships",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Internship",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "2e672a7bda69d96dde",
+      "company": "TikTok",
+      "companyTier": "A",
+      "industry": "Tech / Consumer",
+      "title": "Product Manager Intern (Scaled Growth) - 2027 Summer",
+      "location": "San Jose, CA, United States",
+      "employmentType": "Internship",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a7ed2afe2030208f276aafe?utm_campaign=1047&utm_source=git",
+      "source": "Jobright — Product Management Internships",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Internship",
+        "Priority A"
+      ],
+      "matchScore": 86,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 95,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "7cd40394c16b9ca5e2",
+      "company": "TikTok",
+      "companyTier": "A",
+      "industry": "Tech / Consumer",
+      "title": "AI Product Operations Intern（TikTok-Platform Responsibility-Teen Experiences）- 2027 Summer",
+      "location": "San Jose, CA, United States",
+      "employmentType": "Internship",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a73f26532ebbc14ffb516df?utm_campaign=1047&utm_source=git",
+      "source": "Jobright — Product Management Internships",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Internship",
+        "Priority A"
+      ],
+      "matchScore": 89,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 70,
+        "companyFit": 95,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
       "id": "dd961c8ac27a49821c",
       "company": "TikTok",
       "companyTier": "A",
@@ -2717,6 +2847,38 @@
       "salaryText": null
     },
     {
+      "id": "206bf9dcde3ca08f65",
+      "company": "Coinbase",
+      "companyTier": "U",
+      "industry": "Financial Services / Fintech",
+      "title": "Associate Product Manager Intern",
+      "location": "San Francisco, CA, United States",
+      "employmentType": "Internship",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6aa08bdb500b01124c779b73?utm_campaign=1047&utm_source=git",
+      "source": "Jobright — Product Management Internships",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "Internship",
+        "Other Company"
+      ],
+      "matchScore": 82,
+      "scoreBreakdown": {
+        "roleFit": 99,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 88,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
       "id": "c77ca6a71c3337d5f6",
       "company": "Coinbase",
       "companyTier": "U",
@@ -2737,38 +2899,6 @@
       "matchScore": 81,
       "scoreBreakdown": {
         "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 88,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "206bf9dcde3ca08f65",
-      "company": "Coinbase",
-      "companyTier": "U",
-      "industry": "Financial Services / Fintech",
-      "title": "Associate Product Manager Intern",
-      "location": "San Francisco, CA, United States",
-      "employmentType": "Internship",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aa08bdb500b01124c779b73?utm_campaign=1047&utm_source=git",
-      "source": "Jobright — Product Management Internships",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "Internship",
-        "Other Company"
-      ],
-      "matchScore": 82,
-      "scoreBreakdown": {
-        "roleFit": 99,
         "experienceFit": 60,
         "companyFit": 74,
         "careerFit": 88,
@@ -3268,6 +3398,38 @@
       "salaryText": null
     },
     {
+      "id": "de734aa9c84f73641a",
+      "company": "TikTok",
+      "companyTier": "A",
+      "industry": "Tech / Consumer",
+      "title": "TikTok Shop - Customer Experience Business Analytics Analyst",
+      "location": "San Jose, CA, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6aaf62440ebc8fb2313edb93?utm_campaign=Business%20Analyst&utm_source=1103",
+      "source": "Jobright — Business Analyst New Grad",
+      "category": "Business & Analytics",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Priority A"
+      ],
+      "matchScore": 87,
+      "scoreBreakdown": {
+        "roleFit": 91,
+        "experienceFit": 70,
+        "companyFit": 95,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
       "id": "90726b3641dee92d7d",
       "company": "SpaceXAI",
       "companyTier": "U",
@@ -3495,6 +3657,38 @@
       "salaryText": null
     },
     {
+      "id": "571daf9d1bfcbdf94f",
+      "company": "Clark Hill Law",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Marketing Coordinator",
+      "location": "Chicago, IL, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a58564c0304e26a7e7e54ee?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 79,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
       "id": "79b55f1ab26a401a04",
       "company": "Worcester Polytechnic Institute",
       "companyTier": "U",
@@ -3559,38 +3753,6 @@
       "salaryText": null
     },
     {
-      "id": "ed5d845e2c70cd8371",
-      "company": "Travel + Leisure Co.",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "In-House Marketing Coordinator",
-      "location": "San Francisco, California, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a7cb050d77e8156a8e339bb?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 79,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
       "id": "ebcdeb9e8a9a5caaa2",
       "company": "Travel + Leisure Co.",
       "companyTier": "U",
@@ -3623,143 +3785,15 @@
       "salaryText": null
     },
     {
-      "id": "a6570cd55f0137c89d",
+      "id": "c9e451ac77f77caf12",
       "company": "Travel + Leisure Co.",
       "companyTier": "U",
       "industry": "Other",
       "title": "In House Marketing Coordinator",
-      "location": "Waikiki Galleria Tower, United States of America",
+      "location": "Williamsburg, Virginia, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a559073268af95237bec529?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 79,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "57769f3e947d89515c",
-      "company": "Travel + Leisure Co.",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "In House Marketing Coordinator - Princeville, Kauai",
-      "location": "Bali Hai, United States of America",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a26f5ac7d827633afff7ade?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 80,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 65,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "82f9ef17fe8bc0dc28",
-      "company": "Travel + Leisure Co.",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "In House Marketing Coordinator",
-      "location": "San Diego, CA, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a6ce471ba7efe79c2f67334?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 79,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "58543f625797d08825",
-      "company": "Travel + Leisure Co.",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "In-House Marketing Coordinator",
-      "location": "Angels Camp, CA, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a7ca61e83621355407aaeca?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 79,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "0cdbe28af3e2d634be",
-      "company": "Travel + Leisure Co.",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "In House Marketing Coordinator",
-      "location": "National Harbor, Maryland, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6abaed1d1acb8fc6f09c2536?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a6b857cc00ae03109f847fc?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -3815,6 +3849,134 @@
       "salaryText": null
     },
     {
+      "id": "57769f3e947d89515c",
+      "company": "Travel + Leisure Co.",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "In House Marketing Coordinator - Princeville, Kauai",
+      "location": "Bali Hai, United States of America",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a26f5ac7d827633afff7ade?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 80,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 65,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "ed5d845e2c70cd8371",
+      "company": "Travel + Leisure Co.",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "In-House Marketing Coordinator",
+      "location": "San Francisco, California, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a7cb050d77e8156a8e339bb?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 79,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "58543f625797d08825",
+      "company": "Travel + Leisure Co.",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "In-House Marketing Coordinator",
+      "location": "Angels Camp, CA, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a7ca61e83621355407aaeca?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 79,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "82f9ef17fe8bc0dc28",
+      "company": "Travel + Leisure Co.",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "In House Marketing Coordinator",
+      "location": "San Diego, CA, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a6ce471ba7efe79c2f67334?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 79,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
       "id": "304db06f68fabdeb0d",
       "company": "Travel + Leisure Co.",
       "companyTier": "U",
@@ -3847,15 +4009,47 @@
       "salaryText": null
     },
     {
-      "id": "c9e451ac77f77caf12",
+      "id": "0cdbe28af3e2d634be",
       "company": "Travel + Leisure Co.",
       "companyTier": "U",
       "industry": "Other",
       "title": "In House Marketing Coordinator",
-      "location": "Williamsburg, Virginia, United States",
+      "location": "National Harbor, Maryland, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a6b857cc00ae03109f847fc?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6abaed1d1acb8fc6f09c2536?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 79,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "a6570cd55f0137c89d",
+      "company": "Travel + Leisure Co.",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "In House Marketing Coordinator",
+      "location": "Waikiki Galleria Tower, United States of America",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a559073268af95237bec529?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -4071,7 +4265,7 @@
       "salaryText": null
     },
     {
-      "id": "01eb7b6ce00e26e1ae",
+      "id": "237b00bc1ef63522f4",
       "company": "CarGurus",
       "companyTier": "U",
       "industry": "Other",
@@ -4079,7 +4273,7 @@
       "location": "Boston, MA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aad6ee12e757fcb5c8b8562?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a6a37108693c23e7fb79767?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -4295,6 +4489,38 @@
       "salaryText": null
     },
     {
+      "id": "b51a55e7bfa48458c2",
+      "company": "TikTok",
+      "companyTier": "A",
+      "industry": "Tech / Consumer",
+      "title": "Data Analyst Graduate (Supply Chain and Logistics- Fulfillment Centers Operations) - 2027 Start",
+      "location": "Fontana, CA, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-03T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a84f9b058ded76ad8fea2ce?utm_campaign=Data%20Analysis&utm_source=1103",
+      "source": "Jobright — Data Analysis New Grad",
+      "category": "Business & Analytics",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Priority A"
+      ],
+      "matchScore": 86,
+      "scoreBreakdown": {
+        "roleFit": 91,
+        "experienceFit": 65,
+        "companyFit": 95,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
       "id": "039076d28bc515ec01",
       "company": "HarrisX",
       "companyTier": "U",
@@ -4392,7 +4618,7 @@
       "salaryText": null
     },
     {
-      "id": "271134c7ca7e19d413",
+      "id": "21d405d238c1e4ec8b",
       "company": "Dollar Tree Stores",
       "companyTier": "U",
       "industry": "Other",
@@ -4400,7 +4626,7 @@
       "location": "Chesapeake, VA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-03T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a520fd69fbdab22fe139dfd?utm_campaign=Data%20Analysis&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a642cf48d53603449605c66?utm_campaign=Data%20Analysis&utm_source=1103",
       "source": "Jobright — Data Analysis New Grad",
       "category": "Research & Insights",
       "experienceBand": "Early Career",
@@ -4672,35 +4898,6 @@
         "experienceFit": 70,
         "companyFit": 95,
         "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "74edd8d9972ac706e0",
-      "company": "Morgan Stanley",
-      "companyTier": "B",
-      "industry": "Financial Services / Fintech",
-      "title": "Research Associate - ASEAN (Energy, Power & Infrastructure)",
-      "location": "Singapore, Singapore",
-      "employmentType": "",
-      "postedAt": "2026-10-02T05:49:54.052Z",
-      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Singapore-Singapore/Research-Associate---ASEAN--Energy--Power---Infrastructure-_JR044970",
-      "source": "Workday",
-      "category": "Research & Insights",
-      "experienceBand": "Early Career",
-      "tags": [],
-      "matchScore": 78,
-      "scoreBreakdown": {
-        "roleFit": 85,
-        "experienceFit": 55,
-        "companyFit": 82,
-        "careerFit": 88,
         "freshness": 90
       },
       "salaryKnown": false,
@@ -5316,7 +5513,7 @@
       "salaryText": null
     },
     {
-      "id": "2cf2c1548ab464d327",
+      "id": "89dad068ddecae2719",
       "company": "S&P Global",
       "companyTier": "A",
       "industry": "Information / Data",
@@ -5324,7 +5521,7 @@
       "location": "Dallas, TX, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ac127df4ac55253f5d6a0c2?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6ac124640e027c0f3b3a24bf?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -6014,15 +6211,15 @@
       "salaryText": null
     },
     {
-      "id": "1843482454480afe0f",
+      "id": "860002acafbb36338a",
       "company": "KLA",
       "companyTier": "U",
       "industry": "Other",
       "title": "Spares Demand Planner",
-      "location": "Ann Arbor, MI, United States of America",
+      "location": "Ann Arbor, MI, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a52ea8fd007ee02d95f995d?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a5383c8e726ec56126a70e3?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -6046,15 +6243,15 @@
       "salaryText": null
     },
     {
-      "id": "860002acafbb36338a",
+      "id": "1843482454480afe0f",
       "company": "KLA",
       "companyTier": "U",
       "industry": "Other",
       "title": "Spares Demand Planner",
-      "location": "Ann Arbor, MI, United States",
+      "location": "Ann Arbor, MI, United States of America",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5383c8e726ec56126a70e3?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a52ea8fd007ee02d95f995d?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -6175,15 +6372,15 @@
       "salaryText": null
     },
     {
-      "id": "d4c4d3065c7fd8ce4b",
+      "id": "2d9af222f4b9d288cb",
       "company": "Molex",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Management Intern",
-      "location": "Eden Prairie, MN, United States",
+      "location": "Lisle, IL, United States",
       "employmentType": "Internship",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ac0b9348ff3fb9b3bc7c7f1?utm_campaign=1047&utm_source=git",
+      "url": "https://jobright.ai/jobs/info/6ac0b924d9621c5b2839820d?utm_campaign=1047&utm_source=git",
       "source": "Jobright — Product Management Internships",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -6207,15 +6404,15 @@
       "salaryText": null
     },
     {
-      "id": "2d9af222f4b9d288cb",
+      "id": "d4c4d3065c7fd8ce4b",
       "company": "Molex",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Management Intern",
-      "location": "Lisle, IL, United States",
+      "location": "Eden Prairie, MN, United States",
       "employmentType": "Internship",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ac0b924d9621c5b2839820d?utm_campaign=1047&utm_source=git",
+      "url": "https://jobright.ai/jobs/info/6ac0b9348ff3fb9b3bc7c7f1?utm_campaign=1047&utm_source=git",
       "source": "Jobright — Product Management Internships",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -6726,38 +6923,6 @@
       "salaryText": null
     },
     {
-      "id": "dcfdd53e972899177f",
-      "company": "Microsoft",
-      "companyTier": "A",
-      "industry": "Tech / SaaS / AI",
-      "title": "Product Manager: Internship Opportunities",
-      "location": "Redmond, WA, United States",
-      "employmentType": "Internship",
-      "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6abdf8aa8ff3fb9b3bc728da?utm_campaign=1047&utm_source=git",
-      "source": "Jobright — Product Management Internships",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "Internship",
-        "Priority A"
-      ],
-      "matchScore": 85,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 95,
-        "careerFit": 88,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
       "id": "39ac8ded16ece056af",
       "company": "Databricks",
       "companyTier": "A",
@@ -7020,7 +7185,7 @@
       "salaryText": null
     },
     {
-      "id": "b5746996b55612638c",
+      "id": "9c683add9476f0e7cb",
       "company": "Definity",
       "companyTier": "U",
       "industry": "Other",
@@ -7028,7 +7193,7 @@
       "location": "Waterloo, ON, Canada",
       "employmentType": "Internship",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aa3ca5d4238ea18d430e486?utm_campaign=1047&utm_source=git",
+      "url": "https://jobright.ai/jobs/info/6aa3974d4238ea18d430cc86?utm_campaign=1047&utm_source=git",
       "source": "Jobright — Product Management Internships",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -7214,15 +7379,15 @@
       "salaryText": null
     },
     {
-      "id": "b930bd7eeb4877c792",
+      "id": "5a9e8cff2cb5a16fc6",
       "company": "Accenture Federal Services",
       "companyTier": "U",
       "industry": "Other",
       "title": "ServiceNow Business Analyst - HRSD",
-      "location": "Springfield, VA, United States",
+      "location": "Springfield, VA",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5243a2d007ee02d95f6d37?utm_campaign=Business%20Analyst&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/68c88e3595f5211cd2ce6736?utm_campaign=Business%20Analyst&utm_source=1103",
       "source": "Jobright — Business Analyst New Grad",
       "category": "Business & Analytics",
       "experienceBand": "Early Career",
@@ -7246,15 +7411,15 @@
       "salaryText": null
     },
     {
-      "id": "5a9e8cff2cb5a16fc6",
+      "id": "b930bd7eeb4877c792",
       "company": "Accenture Federal Services",
       "companyTier": "U",
       "industry": "Other",
       "title": "ServiceNow Business Analyst - HRSD",
-      "location": "Springfield, VA",
+      "location": "Springfield, VA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/68c88e3595f5211cd2ce6736?utm_campaign=Business%20Analyst&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a5243a2d007ee02d95f6d37?utm_campaign=Business%20Analyst&utm_source=1103",
       "source": "Jobright — Business Analyst New Grad",
       "category": "Business & Analytics",
       "experienceBand": "Early Career",
@@ -8466,7 +8631,7 @@
       "salaryText": null
     },
     {
-      "id": "f97f98434da1f66ee5",
+      "id": "fd585150de1ce60b40",
       "company": "Water Extraction Team dba Property Solutions Team",
       "companyTier": "U",
       "industry": "Other",
@@ -8474,7 +8639,7 @@
       "location": "Denver, CO, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ac007654ac55253f5d672a0?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a8691834afae74a083450d1?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "Partnerships & Platforms",
       "experienceBand": "Early Career",
@@ -8487,38 +8652,6 @@
         "roleFit": 82,
         "experienceFit": 60,
         "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "358d5340cbf559bbb8",
-      "company": "Procter & Gamble",
-      "companyTier": "A",
-      "industry": "Consumer / Retail",
-      "title": "Digital Marketing Technology  (2027 Grads)",
-      "location": "Cincinnati, OH, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a8cb493581f2d7bfdfe55f5?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Priority A"
-      ],
-      "matchScore": 84,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 65,
-        "companyFit": 95,
         "careerFit": 100,
         "freshness": 90
       },
@@ -8915,38 +9048,6 @@
       "salaryText": null
     },
     {
-      "id": "a9739fbaaa129418d3",
-      "company": "MJH Life Sciences®",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Digital Marketing Coordinator",
-      "location": "Cranbury, NJ, United States of America",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a51d93dbf63b66c7997dd66?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 80,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 65,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
       "id": "5eeed71c33a8468f1c",
       "company": "MJH Life Sciences®",
       "companyTier": "U",
@@ -8979,60 +9080,26 @@
       "salaryText": null
     },
     {
-      "id": "d096b281916da40262",
-      "company": "Veeva Systems",
+      "id": "a9739fbaaa129418d3",
+      "company": "MJH Life Sciences®",
       "companyTier": "U",
-      "industry": "Healthcare / Pharma / Medtech",
-      "title": "Field Marketing Associate",
-      "location": "Missouri - Kansas City",
+      "industry": "Other",
+      "title": "Digital Marketing Coordinator",
+      "location": "Cranbury, NJ, United States of America",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a0ad6ee8f3e371eb618a991?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a51d93dbf63b66c7997dd66?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
       "tags": [
         "New Grad",
-        "Remote",
         "Other Company"
       ],
-      "matchScore": 79,
+      "matchScore": 80,
       "scoreBreakdown": {
         "roleFit": 86,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 90
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "3cf1e1bebd9f74f1c2",
-      "company": "Veeva Systems",
-      "companyTier": "U",
-      "industry": "Healthcare / Pharma / Medtech",
-      "title": "Field Marketing Associate",
-      "location": "Massachusetts - Boston",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a0ad6ed8f3e371eb618a98f?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Remote",
-        "Other Company"
-      ],
-      "matchScore": 79,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 60,
+        "experienceFit": 65,
         "companyFit": 74,
         "careerFit": 100,
         "freshness": 90
@@ -9111,15 +9178,80 @@
       "salaryText": null
     },
     {
-      "id": "8eb0767c6ca6d34721",
+      "id": "3cf1e1bebd9f74f1c2",
+      "company": "Veeva Systems",
+      "companyTier": "U",
+      "industry": "Healthcare / Pharma / Medtech",
+      "title": "Field Marketing Associate",
+      "location": "Massachusetts - Boston",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-02T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a0ad6ed8f3e371eb618a98f?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Remote",
+        "Other Company"
+      ],
+      "matchScore": 79,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "0d49c18d70816c4118",
+      "company": "Veeva Systems",
+      "companyTier": "U",
+      "industry": "Healthcare / Pharma / Medtech",
+      "title": "Field Marketing Associate",
+      "location": "Missouri - Kansas City",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-02T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/688018f52097a271a89a0e8d?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 79,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 90
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "9720a4466488b99add",
       "company": "Trevant",
       "companyTier": "U",
       "industry": "Other",
       "title": "Creator Operations Coordinator",
-      "location": "Toronto, ON, Canada",
+      "location": "Overland Park, KS, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a9b2bb090a313642c658dff?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a9b2b802cdc5958f53eb239?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "Partnerships & Platforms",
       "experienceBand": "Early Career",
@@ -9143,15 +9275,15 @@
       "salaryText": null
     },
     {
-      "id": "9720a4466488b99add",
+      "id": "8eb0767c6ca6d34721",
       "company": "Trevant",
       "companyTier": "U",
       "industry": "Other",
       "title": "Creator Operations Coordinator",
-      "location": "Overland Park, KS, United States",
+      "location": "Toronto, ON, Canada",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a9b2b802cdc5958f53eb239?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a9b2bb090a313642c658dff?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "Partnerships & Platforms",
       "experienceBand": "Early Career",
@@ -9335,7 +9467,7 @@
       "salaryText": null
     },
     {
-      "id": "7f96b275d654410d78",
+      "id": "13cb04b02ba5444310",
       "company": "Total Quality Logistics",
       "companyTier": "U",
       "industry": "Other",
@@ -9343,7 +9475,7 @@
       "location": "Cincinnati, OH, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a99a044138838706058f257?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6abeab1b4ac55253f5d61e15?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -9399,7 +9531,7 @@
       "salaryText": null
     },
     {
-      "id": "88de9f8f6435ba2b24",
+      "id": "a45f983551c9e9aa9c",
       "company": "Infineon Technologies",
       "companyTier": "U",
       "industry": "Other",
@@ -9407,7 +9539,7 @@
       "location": "Dallas, TX, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a9f07b2a7ba386c5d67427b?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a9ee609a7ba386c5d673ca8?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -9431,15 +9563,15 @@
       "salaryText": null
     },
     {
-      "id": "a6c50561b7dee691a8",
+      "id": "3c07137e8d2b793550",
       "company": "DHL Supply Chain",
       "companyTier": "U",
       "industry": "Other",
       "title": "Business Data Analyst II",
-      "location": "Westerville, OH, United States",
+      "location": "Rincon, GA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aad34932e757fcb5c8b72e6?utm_campaign=Data%20Analysis&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6abc7c88fbb3359bcc7d20e3?utm_campaign=Data%20Analysis&utm_source=1103",
       "source": "Jobright — Data Analysis New Grad",
       "category": "Business & Analytics",
       "experienceBand": "Early Career",
@@ -9463,15 +9595,15 @@
       "salaryText": null
     },
     {
-      "id": "3c07137e8d2b793550",
+      "id": "a6c50561b7dee691a8",
       "company": "DHL Supply Chain",
       "companyTier": "U",
       "industry": "Other",
       "title": "Business Data Analyst II",
-      "location": "Rincon, GA, United States",
+      "location": "Westerville, OH, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-02T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6abc7c88fbb3359bcc7d20e3?utm_campaign=Data%20Analysis&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6aad34932e757fcb5c8b72e6?utm_campaign=Data%20Analysis&utm_source=1103",
       "source": "Jobright — Data Analysis New Grad",
       "category": "Business & Analytics",
       "experienceBand": "Early Career",
@@ -10156,13 +10288,13 @@
       "tags": [
         "Priority A"
       ],
-      "matchScore": 86,
+      "matchScore": 84,
       "scoreBreakdown": {
         "roleFit": 82,
         "experienceFit": 80,
         "companyFit": 95,
         "careerFit": 88,
-        "freshness": 90
+        "freshness": 78
       },
       "salaryKnown": false,
       "salaryMin": null,
@@ -10189,13 +10321,13 @@
         "Remote",
         "Other Company"
       ],
-      "matchScore": 83,
+      "matchScore": 81,
       "scoreBreakdown": {
         "roleFit": 82,
         "experienceFit": 85,
         "companyFit": 74,
         "careerFit": 88,
-        "freshness": 90
+        "freshness": 78
       },
       "salaryKnown": false,
       "salaryMin": null,
@@ -10401,38 +10533,6 @@
       "salaryText": null
     },
     {
-      "id": "b24c19170cc5135088",
-      "company": "Mastercard",
-      "companyTier": "A",
-      "industry": "Financial Services / Fintech",
-      "title": "Specialist, Product Operations",
-      "location": "O'Fallon, Missouri",
-      "employmentType": "Full time",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Specialist--Product-Operations_R-291160",
-      "source": "Workday",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "Internship",
-        "Priority A"
-      ],
-      "matchScore": 93,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 95,
-        "companyFit": 95,
-        "careerFit": 88,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
       "id": "32b6aa16cec69f6fa0",
       "company": "Mastercard",
       "companyTier": "A",
@@ -10623,6 +10723,37 @@
       "salaryText": null
     },
     {
+      "id": "74edd8d9972ac706e0",
+      "company": "Morgan Stanley",
+      "companyTier": "B",
+      "industry": "Financial Services / Fintech",
+      "title": "Research Associate - ASEAN (Energy, Power & Infrastructure)",
+      "location": "Singapore, Singapore",
+      "employmentType": "Full time",
+      "postedAt": "2026-10-01T00:00:00.000Z",
+      "url": "https://ms.wd5.myworkdayjobs.com/External/job/Singapore-Singapore/Research-Associate---ASEAN--Energy--Power---Infrastructure-_JR044970",
+      "source": "Workday",
+      "category": "Research & Insights",
+      "experienceBand": "Early Career",
+      "tags": [
+        "Internship"
+      ],
+      "matchScore": 78,
+      "scoreBreakdown": {
+        "roleFit": 85,
+        "experienceFit": 60,
+        "companyFit": 82,
+        "careerFit": 88,
+        "freshness": 78
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
       "id": "8319ad73081299ebde",
       "company": "Target",
       "companyTier": "A",
@@ -10740,37 +10871,6 @@
         "roleFit": 82,
         "experienceFit": 98,
         "companyFit": 95,
-        "careerFit": 88,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "b37df374b28c7dba4c",
-      "company": "Citi",
-      "companyTier": "B",
-      "industry": "Financial Services / Fintech",
-      "title": "Know Your Customer Operations Analyst",
-      "location": "Ciudad De Mexico Distrito Federal Mexico",
-      "employmentType": "Full time",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/Know-Your-Customer-Operations-Analyst_26999621",
-      "source": "Workday",
-      "category": "Strategy & Operations",
-      "experienceBand": "Early Career",
-      "tags": [
-        "Internship"
-      ],
-      "matchScore": 81,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 82,
         "careerFit": 88,
         "freshness": 78
       },
@@ -10974,15 +11074,15 @@
       "salaryText": null
     },
     {
-      "id": "612a7de3b41d034800",
+      "id": "30d4ab4f794dcbc450",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr PLUS Commission)",
-      "location": "165 Camp Creek Pkwy, Gordonsville, VA 22942, USA",
+      "location": "1601 N Bechtle Ave, Springfield, OH 45504, USA",
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a521752d007ee02d95f5fee?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a5c6aff686b4755d1e1bc00?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -11006,111 +11106,15 @@
       "salaryText": null
     },
     {
-      "id": "09bdb5b219949ac44f",
+      "id": "815f6f9d6dd213c27d",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr PLUS Commission)",
-      "location": "13750 S Black Bob Rd, Olathe, KS 66062, USA",
+      "location": "1230 N Brightleaf Blvd, Smithfield, NC 27577, USA",
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5e492a270e3033b045cd71?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 81,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "716f23eddbc7f51423",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr PLUS Commission)",
-      "location": "6161 East Sam Houston Pkwy N, Houston, TX 77049, USA",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a55b89d14f1040fa611ae6e?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 81,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "b95c8e8cb9c3fc3f43",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr PLUS Commission)",
-      "location": "200 TX-332, Lake Jackson, TX 77566, USA",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5da05d3ac7627fe900cd34?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 81,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "cf0ef0662b804c99c9",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr PLUS Commission)",
-      "location": "800 Conestoga Pkwy, Shepherdsville, KY 40165, USA",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5e654b67b2850e77df0d68?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a56085fefb06a45240d3388?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -11166,79 +11170,15 @@
       "salaryText": null
     },
     {
-      "id": "30d4ab4f794dcbc450",
+      "id": "b95c8e8cb9c3fc3f43",
       "company": "Leaf Home",
       "companyTier": "U",
       "industry": "Other",
       "title": "Product Demonstrator ($18/hr PLUS Commission)",
-      "location": "1601 N Bechtle Ave, Springfield, OH 45504, USA",
+      "location": "200 TX-332, Lake Jackson, TX 77566, USA",
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5c6aff686b4755d1e1bc00?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 81,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "36c3efe2a32253f9a6",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr PLUS Commission)",
-      "location": "Lewisville, TX, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a57e9f968d16a30e2410693?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 81,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "815f6f9d6dd213c27d",
-      "company": "Leaf Home",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Demonstrator ($18/hr PLUS Commission)",
-      "location": "1230 N Brightleaf Blvd, Smithfield, NC 27577, USA",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a56085fefb06a45240d3388?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a5da05d3ac7627fe900cd34?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -11303,6 +11243,166 @@
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://jobright.ai/jobs/info/6a55bf5efdf4fa71202b495e?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 81,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 78
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "612a7de3b41d034800",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr PLUS Commission)",
+      "location": "165 Camp Creek Pkwy, Gordonsville, VA 22942, USA",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-01T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a521752d007ee02d95f5fee?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 81,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 78
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "716f23eddbc7f51423",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr PLUS Commission)",
+      "location": "6161 East Sam Houston Pkwy N, Houston, TX 77049, USA",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-01T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a55b89d14f1040fa611ae6e?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 81,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 78
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "cf0ef0662b804c99c9",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr PLUS Commission)",
+      "location": "800 Conestoga Pkwy, Shepherdsville, KY 40165, USA",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-01T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a5e654b67b2850e77df0d68?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 81,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 78
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "36c3efe2a32253f9a6",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr PLUS Commission)",
+      "location": "Lewisville, TX, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-01T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a57e9f968d16a30e2410693?utm_campaign=Product%20Management&utm_source=1103",
+      "source": "Jobright — Product Management New Grad",
+      "category": "Product",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 81,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 78
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "09bdb5b219949ac44f",
+      "company": "Leaf Home",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Product Demonstrator ($18/hr PLUS Commission)",
+      "location": "13750 S Black Bob Rd, Olathe, KS 66062, USA",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-01T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a5e492a270e3033b045cd71?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -12484,7 +12584,7 @@
       "salaryText": null
     },
     {
-      "id": "257993ec5ac2bc3881",
+      "id": "31afbcc8582cc037db",
       "company": "Navy Federal Credit Union",
       "companyTier": "U",
       "industry": "Other",
@@ -12492,7 +12592,7 @@
       "location": "Pensacola, FL, United States",
       "employmentType": "Internship",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aa16336dbc0e60e37e110f9?utm_campaign=1047&utm_source=git",
+      "url": "https://jobright.ai/jobs/info/6aa168470ffb3d4fea6b4906?utm_campaign=1047&utm_source=git",
       "source": "Jobright — Product Management Internships",
       "category": "Business & Analytics",
       "experienceBand": "Early Career",
@@ -12580,15 +12680,15 @@
       "salaryText": null
     },
     {
-      "id": "03dd05a188aa081ef8",
+      "id": "e6f4564343dcdf7b3e",
       "company": "IBM",
       "companyTier": "A",
       "industry": "Tech / SaaS / AI",
       "title": "Product Manager Intern 2027",
-      "location": "Lowell, Massachusetts, United States",
+      "location": "Poughkeepsie, NY, United States",
       "employmentType": "Internship",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a9e341e75edfa11b47108b8?utm_campaign=1047&utm_source=git",
+      "url": "https://jobright.ai/jobs/info/6a9e33f168f82b4036738e51?utm_campaign=1047&utm_source=git",
       "source": "Jobright — Product Management Internships",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -12613,15 +12713,15 @@
       "salaryText": null
     },
     {
-      "id": "77437223ad284b1408",
+      "id": "03dd05a188aa081ef8",
       "company": "IBM",
       "companyTier": "A",
       "industry": "Tech / SaaS / AI",
-      "title": "Product Management Intern 2027",
-      "location": "Markham, ON, Canada",
+      "title": "Product Manager Intern 2027",
+      "location": "Lowell, Massachusetts, United States",
       "employmentType": "Internship",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ab58d1c9d4843569fe4a9a6?utm_campaign=1047&utm_source=git",
+      "url": "https://jobright.ai/jobs/info/6a9e341e75edfa11b47108b8?utm_campaign=1047&utm_source=git",
       "source": "Jobright — Product Management Internships",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -12679,15 +12779,15 @@
       "salaryText": null
     },
     {
-      "id": "e6f4564343dcdf7b3e",
+      "id": "77437223ad284b1408",
       "company": "IBM",
       "companyTier": "A",
       "industry": "Tech / SaaS / AI",
-      "title": "Product Manager Intern 2027",
-      "location": "Poughkeepsie, NY, United States",
+      "title": "Product Management Intern 2027",
+      "location": "Markham, ON, Canada",
       "employmentType": "Internship",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a9e33f168f82b4036738e51?utm_campaign=1047&utm_source=git",
+      "url": "https://jobright.ai/jobs/info/6ab58d1c9d4843569fe4a9a6?utm_campaign=1047&utm_source=git",
       "source": "Jobright — Product Management Internships",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -12959,72 +13059,6 @@
         "experienceFit": 60,
         "companyFit": 95,
         "careerFit": 88,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "60b3e79f59afd56783",
-      "company": "TikTok",
-      "companyTier": "A",
-      "industry": "Tech / Consumer",
-      "title": "Product Manager Intern (Ads Interface and Platform) - 2027 Summer",
-      "location": "San Jose, CA, United States",
-      "employmentType": "Internship",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a7c2fc1d77e8156a8e3155c?utm_campaign=1047&utm_source=git",
-      "source": "Jobright — Product Management Internships",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Internship",
-        "Priority A"
-      ],
-      "matchScore": 85,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 95,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "a341b149f95ead88e9",
-      "company": "TikTok",
-      "companyTier": "A",
-      "industry": "Tech / Consumer",
-      "title": "Product Manager Intern (Ads Interface and Platform) - 2027 Summer",
-      "location": "Seattle",
-      "employmentType": "Internship",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a7c2fcfd77e8156a8e3155f?utm_campaign=1047&utm_source=git",
-      "source": "Jobright — Product Management Internships",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Internship",
-        "Priority A"
-      ],
-      "matchScore": 85,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 95,
-        "careerFit": 100,
         "freshness": 78
       },
       "salaryKnown": false,
@@ -13378,39 +13412,6 @@
         "experienceFit": 60,
         "companyFit": 82,
         "careerFit": 88,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "443a5af1735d4dac43",
-      "company": "BMO",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Business Analyst, Winter 2027 (Co-op/Internship) - 8 Months",
-      "location": "Toronto, ON, Canada",
-      "employmentType": "Internship",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ac0331b8ff3fb9b3bc7b44d?utm_campaign=1067&utm_source=git",
-      "source": "Jobright — Business Analyst Internships",
-      "category": "Business & Analytics",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Internship",
-        "Other Company"
-      ],
-      "matchScore": 81,
-      "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
         "freshness": 78
       },
       "salaryKnown": false,
@@ -13809,15 +13810,15 @@
       "salaryText": null
     },
     {
-      "id": "91e069f70c3399908c",
+      "id": "2ac0aabe6ac2bbee07",
       "company": "ServiceMaster by Twins",
       "companyTier": "U",
       "industry": "Other",
       "title": "Business Development Consultant",
-      "location": "Jonesboro, GA, United States",
+      "location": "Augusta, GA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6abe34208ff3fb9b3bc72fa4?utm_campaign=Consultant&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6abe341e4ac55253f5d5fc2d?utm_campaign=Consultant&utm_source=1103",
       "source": "Jobright — Consultant New Grad",
       "category": "Partnerships & Platforms",
       "experienceBand": "Early Career",
@@ -13873,15 +13874,15 @@
       "salaryText": null
     },
     {
-      "id": "2ac0aabe6ac2bbee07",
+      "id": "91e069f70c3399908c",
       "company": "ServiceMaster by Twins",
       "companyTier": "U",
       "industry": "Other",
       "title": "Business Development Consultant",
-      "location": "Augusta, GA, United States",
+      "location": "Jonesboro, GA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6abe341e4ac55253f5d5fc2d?utm_campaign=Consultant&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6abe34208ff3fb9b3bc72fa4?utm_campaign=Consultant&utm_source=1103",
       "source": "Jobright — Consultant New Grad",
       "category": "Partnerships & Platforms",
       "experienceBand": "Early Career",
@@ -14226,21 +14227,20 @@
       "salaryText": null
     },
     {
-      "id": "2f4c0f1fe3d5d0986a",
+      "id": "f94b9c74d021b2d8d4",
       "company": "Travel + Leisure Co.",
       "companyTier": "U",
       "industry": "Other",
       "title": "Community Marketing Agent",
-      "location": "Camlin, United States",
+      "location": "Williamsburg, VA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ab410d864816213f2d970b6?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a67be172bf1fb2b71926b74?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
       "tags": [
         "New Grad",
-        "Remote",
         "Other Company"
       ],
       "matchScore": 78,
@@ -14291,70 +14291,6 @@
       "salaryText": null
     },
     {
-      "id": "c8a4df32967c21be42",
-      "company": "Travel + Leisure Co.",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Community Marketing Agent",
-      "location": "Waikiki, Hawaii, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a52c3299fbdab22fe13cdda?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 78,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "f94b9c74d021b2d8d4",
-      "company": "Travel + Leisure Co.",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Community Marketing Agent",
-      "location": "Williamsburg, VA, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a67be172bf1fb2b71926b74?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 78,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
       "id": "9c28de8ff6f5ca77d0",
       "company": "Travel + Leisure Co.",
       "companyTier": "U",
@@ -14364,6 +14300,71 @@
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://jobright.ai/jobs/info/6abe90c08ff3fb9b3bc747e5?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Other Company"
+      ],
+      "matchScore": 78,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 78
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "2f4c0f1fe3d5d0986a",
+      "company": "Travel + Leisure Co.",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Community Marketing Agent",
+      "location": "Camlin, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-01T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6ab410d864816213f2d970b6?utm_campaign=Marketing&utm_source=1103",
+      "source": "Jobright — Marketing New Grad",
+      "category": "GTM & Commercial",
+      "experienceBand": "Early Career",
+      "tags": [
+        "New Grad",
+        "Remote",
+        "Other Company"
+      ],
+      "matchScore": 78,
+      "scoreBreakdown": {
+        "roleFit": 86,
+        "experienceFit": 60,
+        "companyFit": 74,
+        "careerFit": 100,
+        "freshness": 78
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "c8a4df32967c21be42",
+      "company": "Travel + Leisure Co.",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Community Marketing Agent",
+      "location": "Waikiki, Hawaii, United States",
+      "employmentType": "New Grad",
+      "postedAt": "2026-10-01T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a52c3299fbdab22fe13cdda?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -15417,15 +15418,15 @@
       "salaryText": null
     },
     {
-      "id": "0b39e763426997cff0",
+      "id": "7c86bc2743f9259179",
       "company": "American Residential Services",
       "companyTier": "U",
       "industry": "Other",
       "title": "Retail Marketing Associate",
-      "location": "Taunton, MA, United States",
+      "location": "South Bay, MA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ab689b0b3db59402d100c3a?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6aad9fa76956574eac8b6c79?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -15449,15 +15450,15 @@
       "salaryText": null
     },
     {
-      "id": "7c86bc2743f9259179",
+      "id": "0b39e763426997cff0",
       "company": "American Residential Services",
       "companyTier": "U",
       "industry": "Other",
       "title": "Retail Marketing Associate",
-      "location": "South Bay, MA, United States",
+      "location": "Taunton, MA, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-10-01T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aad9fa76956574eac8b6c79?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6ab689b0b3db59402d100c3a?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -18242,39 +18243,6 @@
       "salaryText": null
     },
     {
-      "id": "12bbca21d44bfde9b8",
-      "company": "TD",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "2027 Summer Internship Program - Global Technology & Solutions - Data Analyst",
-      "location": "Mount Laurel, NJ, United States",
-      "employmentType": "Internship",
-      "postedAt": "2026-09-30T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aa77551930bff471a2a3485?utm_campaign=1067&utm_source=git",
-      "source": "Jobright — Business Analyst Internships",
-      "category": "Business & Analytics",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Internship",
-        "Other Company"
-      ],
-      "matchScore": 79,
-      "scoreBreakdown": {
-        "roleFit": 91,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
       "id": "1a44a11ac719143c0e",
       "company": "Enterprise Mobility",
       "companyTier": "U",
@@ -19560,15 +19528,15 @@
       "salaryText": null
     },
     {
-      "id": "931e117ca753b60003",
+      "id": "39c4a3f2f34b06f490",
       "company": "Travel + Leisure Co.",
       "companyTier": "U",
       "industry": "Other",
       "title": "Marketing Coordinator",
-      "location": "Leavenworth Park Village, United States",
+      "location": "Birch Bay, Washington, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-09-30T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aaacd414be87a72913a178f?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6aaacd4b76707040fb082582?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -19592,15 +19560,15 @@
       "salaryText": null
     },
     {
-      "id": "39c4a3f2f34b06f490",
+      "id": "931e117ca753b60003",
       "company": "Travel + Leisure Co.",
       "companyTier": "U",
       "industry": "Other",
       "title": "Marketing Coordinator",
-      "location": "Birch Bay, Washington, United States",
+      "location": "Leavenworth Park Village, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-09-30T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aaacd4b76707040fb082582?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6aaacd414be87a72913a178f?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -21046,38 +21014,6 @@
       "salaryText": null
     },
     {
-      "id": "8909af06750c8e33e8",
-      "company": "DHL Supply Chain",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Business Data Analyst I",
-      "location": "Northlake, TX, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-09-30T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a6da29066158d7ef887e55c?utm_campaign=Data%20Analysis&utm_source=1103",
-      "source": "Jobright — Data Analysis New Grad",
-      "category": "Business & Analytics",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 79,
-      "scoreBreakdown": {
-        "roleFit": 91,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 78
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
       "id": "6ca6f37c71af87d081",
       "company": "DHL Supply Chain",
       "companyTier": "U",
@@ -21110,27 +21046,27 @@
       "salaryText": null
     },
     {
-      "id": "b51a55e7bfa48458c2",
-      "company": "TikTok",
-      "companyTier": "A",
-      "industry": "Tech / Consumer",
-      "title": "Data Analyst Graduate (Supply Chain and Logistics- Fulfillment Centers Operations) - 2027 Start",
-      "location": "Fontana, CA, United States",
+      "id": "8909af06750c8e33e8",
+      "company": "DHL Supply Chain",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Business Data Analyst I",
+      "location": "Northlake, TX, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-09-30T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a84f9b058ded76ad8fea2ce?utm_campaign=Data%20Analysis&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a6da29066158d7ef887e55c?utm_campaign=Data%20Analysis&utm_source=1103",
       "source": "Jobright — Data Analysis New Grad",
       "category": "Business & Analytics",
       "experienceBand": "Early Career",
       "tags": [
         "New Grad",
-        "Priority A"
+        "Other Company"
       ],
-      "matchScore": 85,
+      "matchScore": 79,
       "scoreBreakdown": {
         "roleFit": 91,
-        "experienceFit": 65,
-        "companyFit": 95,
+        "experienceFit": 60,
+        "companyFit": 74,
         "careerFit": 100,
         "freshness": 78
       },
@@ -23125,7 +23061,7 @@
       "salaryText": null
     },
     {
-      "id": "0be299cc2b979bae67",
+      "id": "6f15a5440a90096768",
       "company": "OC&C Strategy Consultants",
       "companyTier": "U",
       "industry": "Other",
@@ -23133,7 +23069,7 @@
       "location": "London, England, United Kingdom",
       "employmentType": "New Grad",
       "postedAt": "2026-09-29T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a9ee486352f093fc756d089?utm_campaign=Consultant&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a9ee4e52c964816f65eec77?utm_campaign=Consultant&utm_source=1103",
       "source": "Jobright — Consultant New Grad",
       "category": "Consulting & Transformation",
       "experienceBand": "Early Career",
@@ -23157,7 +23093,7 @@
       "salaryText": null
     },
     {
-      "id": "54d3d11811e509b3df",
+      "id": "4790ffdb78b778e7ef",
       "company": "OC&C Strategy Consultants",
       "companyTier": "U",
       "industry": "Other",
@@ -23165,7 +23101,7 @@
       "location": "London, England, United Kingdom",
       "employmentType": "New Grad",
       "postedAt": "2026-09-29T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a9ee4802c964816f65eec67?utm_campaign=Consultant&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a9ee480f6ea002358296de3?utm_campaign=Consultant&utm_source=1103",
       "source": "Jobright — Consultant New Grad",
       "category": "Consulting & Transformation",
       "experienceBand": "Early Career",
@@ -23285,7 +23221,7 @@
       "salaryText": null
     },
     {
-      "id": "27bcaa1b7e334be6ca",
+      "id": "f8939c2120e7025c31",
       "company": "Missouri State University",
       "companyTier": "U",
       "industry": "Other",
@@ -23293,7 +23229,7 @@
       "location": "Springfield, Missouri, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-09-29T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6abd86f00e027c0f3b39639f?utm_campaign=Marketing&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6abd35580e027c0f3b393f68?utm_campaign=Marketing&utm_source=1103",
       "source": "Jobright — Marketing New Grad",
       "category": "GTM & Commercial",
       "experienceBand": "Early Career",
@@ -25293,7 +25229,7 @@
       "salaryText": null
     },
     {
-      "id": "16937f6a88f62b972d",
+      "id": "c0b728530477e8f440",
       "company": "Mountfitchet Group",
       "companyTier": "U",
       "industry": "Other",
@@ -25301,7 +25237,7 @@
       "location": "Surbiton, England, United Kingdom",
       "employmentType": "New Grad",
       "postedAt": "2026-09-28T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aba54d51acb8fc6f09bf452?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6aba54d51acb8fc6f09bf451?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -25325,7 +25261,7 @@
       "salaryText": null
     },
     {
-      "id": "c0b728530477e8f440",
+      "id": "16937f6a88f62b972d",
       "company": "Mountfitchet Group",
       "companyTier": "U",
       "industry": "Other",
@@ -25333,7 +25269,7 @@
       "location": "Surbiton, England, United Kingdom",
       "employmentType": "New Grad",
       "postedAt": "2026-09-28T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6aba54d51acb8fc6f09bf451?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6aba54d51acb8fc6f09bf452?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -25953,6 +25889,38 @@
       "scoreBreakdown": {
         "roleFit": 95,
         "experienceFit": 65,
+        "companyFit": 74,
+        "careerFit": 88,
+        "freshness": 78
+      },
+      "salaryKnown": false,
+      "salaryMin": null,
+      "salaryMax": null,
+      "salaryCurrency": null,
+      "salaryPeriod": null,
+      "salaryText": null
+    },
+    {
+      "id": "4d3080853d5eb6932c",
+      "company": "Xcel Energy",
+      "companyTier": "U",
+      "industry": "Other",
+      "title": "Business Analyst Intern - TX, WI",
+      "location": "Eau Claire, WI, United States",
+      "employmentType": "Internship",
+      "postedAt": "2026-09-28T00:00:00.000Z",
+      "url": "https://jobright.ai/jobs/info/6a9e54742c964816f65ecb09?utm_campaign=1067&utm_source=git",
+      "source": "Jobright — Business Analyst Internships",
+      "category": "Business & Analytics",
+      "experienceBand": "Early Career",
+      "tags": [
+        "Internship",
+        "Other Company"
+      ],
+      "matchScore": 80,
+      "scoreBreakdown": {
+        "roleFit": 95,
+        "experienceFit": 60,
         "companyFit": 74,
         "careerFit": 88,
         "freshness": 78
@@ -27312,15 +27280,15 @@
       "salaryText": null
     },
     {
-      "id": "61f80d2956d0149d14",
+      "id": "3858b15cba77b5d542",
       "company": "Gotion Inc.",
       "companyTier": "U",
       "industry": "Other",
       "title": "Data Analyst",
-      "location": "Manteno, Illinois",
+      "location": "Manteno, IL, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-09-28T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a273dc3ca77fd3096d2648d?utm_campaign=Data%20Analysis&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a51b48357513b72e0c664ca?utm_campaign=Data%20Analysis&utm_source=1103",
       "source": "Jobright — Data Analysis New Grad",
       "category": "Business & Analytics",
       "experienceBand": "Early Career",
@@ -27344,15 +27312,15 @@
       "salaryText": null
     },
     {
-      "id": "3858b15cba77b5d542",
+      "id": "61f80d2956d0149d14",
       "company": "Gotion Inc.",
       "companyTier": "U",
       "industry": "Other",
       "title": "Data Analyst",
-      "location": "Manteno, IL, United States",
+      "location": "Manteno, Illinois",
       "employmentType": "New Grad",
       "postedAt": "2026-09-28T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a51b48357513b72e0c664ca?utm_campaign=Data%20Analysis&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6a273dc3ca77fd3096d2648d?utm_campaign=Data%20Analysis&utm_source=1103",
       "source": "Jobright — Data Analysis New Grad",
       "category": "Business & Analytics",
       "experienceBand": "Early Career",
@@ -27535,38 +27503,6 @@
       "salaryText": null
     },
     {
-      "id": "fde81a8a38ab07d7fb",
-      "company": "M&T Bank",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "2027 Management Development Program - IS Forward Deployed Product Analyst  (Wilmington, DE)",
-      "location": "Wilmington, DE, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-09-27T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6abab158be5f1e9325116d65?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 81,
-      "scoreBreakdown": {
-        "roleFit": 99,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 62
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
       "id": "a33b4b6207cdcd6ece",
       "company": "M&T Bank",
       "companyTier": "U",
@@ -27599,15 +27535,15 @@
       "salaryText": null
     },
     {
-      "id": "903ce948a1920dfc20",
-      "company": "Connection",
+      "id": "fde81a8a38ab07d7fb",
+      "company": "M&T Bank",
       "companyTier": "U",
       "industry": "Other",
-      "title": "Product Data Editor",
-      "location": "US-NH-Merrimack",
+      "title": "2027 Management Development Program - IS Forward Deployed Product Analyst  (Wilmington, DE)",
+      "location": "Wilmington, DE, United States",
       "employmentType": "New Grad",
       "postedAt": "2026-09-27T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/69a0a4d15218a8167671d1c7?utm_campaign=Product%20Management&utm_source=1103",
+      "url": "https://jobright.ai/jobs/info/6abab158be5f1e9325116d65?utm_campaign=Product%20Management&utm_source=1103",
       "source": "Jobright — Product Management New Grad",
       "category": "Product",
       "experienceBand": "Early Career",
@@ -27615,41 +27551,9 @@
         "New Grad",
         "Other Company"
       ],
-      "matchScore": 79,
+      "matchScore": 81,
       "scoreBreakdown": {
-        "roleFit": 95,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 62
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "dd5f62826901337d5a",
-      "company": "Connection",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Product Data Editor",
-      "location": "Merrimack, NH, US",
-      "employmentType": "New Grad",
-      "postedAt": "2026-09-27T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a5351118ef95364ead91c3c?utm_campaign=Product%20Management&utm_source=1103",
-      "source": "Jobright — Product Management New Grad",
-      "category": "Product",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 79,
-      "scoreBreakdown": {
-        "roleFit": 95,
+        "roleFit": 99,
         "experienceFit": 60,
         "companyFit": 74,
         "careerFit": 100,
@@ -27747,38 +27651,6 @@
       "scoreBreakdown": {
         "roleFit": 99,
         "experienceFit": 65,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 62
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "28366edfcf50d4f453",
-      "company": "SpaceX",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Business Operations Analyst, Supply Chain (Starlink Aviation)",
-      "location": "Woodinville, WA, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-09-27T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6a6370e08d5360344960247b?utm_campaign=Business%20Analyst&utm_source=1103",
-      "source": "Jobright — Business Analyst New Grad",
-      "category": "Strategy & Operations",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 83,
-      "scoreBreakdown": {
-        "roleFit": 99,
-        "experienceFit": 70,
         "companyFit": 74,
         "careerFit": 100,
         "freshness": 62
@@ -28163,70 +28035,6 @@
       "matchScore": 76,
       "scoreBreakdown": {
         "roleFit": 86,
-        "experienceFit": 60,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 62
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "4872d76ee300ec74eb",
-      "company": "Golden Nugget Cripple Creek",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Social Media & Marketing Coordinator",
-      "location": "Cripple Creek, CO, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-09-27T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ab9600362bb1fbd451e05be?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "GTM & Commercial",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 77,
-      "scoreBreakdown": {
-        "roleFit": 86,
-        "experienceFit": 65,
-        "companyFit": 74,
-        "careerFit": 100,
-        "freshness": 62
-      },
-      "salaryKnown": false,
-      "salaryMin": null,
-      "salaryMax": null,
-      "salaryCurrency": null,
-      "salaryPeriod": null,
-      "salaryText": null
-    },
-    {
-      "id": "0cd9c40080a93280fb",
-      "company": "Fernstone (YC F25)",
-      "companyTier": "U",
-      "industry": "Other",
-      "title": "Growth & Operations Analyst",
-      "location": "New York, NY, United States",
-      "employmentType": "New Grad",
-      "postedAt": "2026-09-27T00:00:00.000Z",
-      "url": "https://jobright.ai/jobs/info/6ab8a5b9d7fde2c08ec8d795?utm_campaign=Marketing&utm_source=1103",
-      "source": "Jobright — Marketing New Grad",
-      "category": "Strategy & Operations",
-      "experienceBand": "Early Career",
-      "tags": [
-        "New Grad",
-        "Other Company"
-      ],
-      "matchScore": 79,
-      "scoreBreakdown": {
-        "roleFit": 95,
         "experienceFit": 60,
         "companyFit": 74,
         "careerFit": 100,
@@ -33687,6 +33495,39 @@
       "salaryText": null
     },
     {
+      "id": "78327197b5a0c15919",
+      "company": "Samsara",
+      "companyTier": "U",
+      "industry": "Tech / SaaS",
+      "title": "Enterprise Implementation Consultant",
+      "location": "Remote - US",
+      "employmentType": "",
+      "postedAt": "2026-08-24T07:56:19-04:00",
+      "url": "https://www.samsara.com/company/careers/roles/8131784?gh_jid=8131784",
+      "source": "Greenhouse",
+      "category": "Customer & Solutions",
+      "experienceBand": "Early Career",
+      "tags": [
+        "Internship",
+        "Remote",
+        "Other Company"
+      ],
+      "matchScore": 78,
+      "scoreBreakdown": {
+        "roleFit": 82,
+        "experienceFit": 90,
+        "companyFit": 74,
+        "careerFit": 88,
+        "freshness": 35
+      },
+      "salaryKnown": true,
+      "salaryMin": 662000,
+      "salaryMax": null,
+      "salaryCurrency": "USD",
+      "salaryPeriod": "annual",
+      "salaryText": "Base Salary</div><div class=\"pay-range\"><span>$662"
+    },
+    {
       "id": "f68030d591351f6986",
       "company": "Stripe",
       "companyTier": "A",
@@ -34563,40 +34404,6 @@
       "salaryCurrency": null,
       "salaryPeriod": null,
       "salaryText": null
-    },
-    {
-      "id": "3bd40feb5698cfae9c",
-      "company": "Samsara",
-      "companyTier": "U",
-      "industry": "Tech / SaaS",
-      "title": "Enterprise Implementation Consultant",
-      "location": "Remote - US",
-      "employmentType": "",
-      "postedAt": "2026-08-13T16:52:14-04:00",
-      "url": "https://www.samsara.com/company/careers/roles/8121332?gh_jid=8121332",
-      "source": "Greenhouse",
-      "category": "Customer & Solutions",
-      "experienceBand": "Experienced",
-      "tags": [
-        "Internship",
-        "Remote",
-        "Other Company",
-        "4 YOE Stretch"
-      ],
-      "matchScore": 78,
-      "scoreBreakdown": {
-        "roleFit": 82,
-        "experienceFit": 95,
-        "companyFit": 74,
-        "careerFit": 70,
-        "freshness": 35
-      },
-      "salaryKnown": true,
-      "salaryMin": 889000,
-      "salaryMax": null,
-      "salaryCurrency": "USD",
-      "salaryPeriod": "annual",
-      "salaryText": "Base Salary</div><div class=\"pay-range\"><span>$889"
     },
     {
       "id": "2d36b758e0381cd88d",
